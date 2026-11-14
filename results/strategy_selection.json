@@ -1,0 +1,18 @@
+{
+  "chosen_strategy": "A",
+  "ranking": [
+    "A",
+    "B",
+    "C"
+  ],
+  "basis": [
+    "higher evidence_hit_at_3 numerator",
+    "higher hit_at_1 numerator",
+    "fewer stored chunks",
+    "alphabetical strategy ID"
+  ],
+  "benchmark_sha256": "460ce884258d7db54915c864000e7b0f2dd23a79c0d83ceb097313b7ab3e1182",
+  "policy_sha256": "85c064bad58d5be1c82011bb286db4c0b659cfb7cc6ffdc26c4f98b10d012d41",
+  "source_sha256": "5e95b6bcb352fe002e9d4447c6a1e0936a841777e320e5b8e344856829c85ec4",
+  "dev_summary_path": "results/dev_summary.json"
+}

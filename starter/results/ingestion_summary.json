@@ -1,0 +1,52 @@
+{
+  "source_id": "worldbank-vnm-poverty-equity-2024-06",
+  "source_sha256": "5e95b6bcb352fe002e9d4447c6a1e0936a841777e320e5b8e344856829c85ec4",
+  "included_pages": 67,
+  "section_page_counts": {
+    "overview": 6,
+    "part_1_poverty_equity_update": 30,
+    "part_2_urban_inclusion": 31
+  },
+  "strategy_config": {
+    "A": {
+      "chunking": "fixed_characters",
+      "size": 500,
+      "overlap": 50,
+      "filter": false
+    },
+    "B": {
+      "chunking": "sentence_groups",
+      "max_size": 500,
+      "overlap": 0,
+      "filter": false
+    },
+    "C": {
+      "chunking": "sentence_groups",
+      "max_size": 500,
+      "overlap": 0,
+      "filter": "section_when_provided"
+    }
+  },
+  "chunk_counts": {
+    "A": 484,
+    "B": 549,
+    "C": 549
+  },
+  "model": "BAAI/bge-small-en-v1.5",
+  "model_dimensions": 384,
+  "embedding_provider": "FastEmbed local ONNX",
+  "fastembed_version": "0.9.1",
+  "vector_store": "Qdrant local on-disk",
+  "qdrant_client_version": "1.20.0",
+  "vector_store_path": "starter/qdrant_storage",
+  "distance": "cosine",
+  "search": "exact local",
+  "api_cost_usd": 0,
+  "ingest_elapsed_seconds": 115.45,
+  "dev_smoke_query_id": "d04",
+  "dev_smoke_top3_pages": [
+    24,
+    24,
+    23
+  ]
+}

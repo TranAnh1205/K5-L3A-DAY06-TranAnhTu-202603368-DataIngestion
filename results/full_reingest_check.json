@@ -1,0 +1,33 @@
+{
+  "scope": "real 67-page World Bank corpus, local Qdrant on-disk store",
+  "source_sha256": "5e95b6bcb352fe002e9d4447c6a1e0936a841777e320e5b8e344856829c85ec4",
+  "model": "BAAI/bge-small-en-v1.5",
+  "before": {
+    "A": {
+      "collection": "day06_fixed_a",
+      "count": 484,
+      "sorted_point_ids_sha256": "06e3af628ce6b5d5c5648770cd7aff7720538b6ce27d28f474ec5cd3fd6a36f0"
+    },
+    "B": {
+      "collection": "day06_sentences_b",
+      "count": 549,
+      "sorted_point_ids_sha256": "48de5710766981ad1ba1733aaffe50b66d7c5fb7ef972d3aec671ba62fc83870"
+    }
+  },
+  "after": {
+    "A": {
+      "collection": "day06_fixed_a",
+      "count": 484,
+      "sorted_point_ids_sha256": "06e3af628ce6b5d5c5648770cd7aff7720538b6ce27d28f474ec5cd3fd6a36f0"
+    },
+    "B": {
+      "collection": "day06_sentences_b",
+      "count": 549,
+      "sorted_point_ids_sha256": "48de5710766981ad1ba1733aaffe50b66d7c5fb7ef972d3aec671ba62fc83870"
+    }
+  },
+  "same_ids_and_counts": true,
+  "elapsed_seconds": 115.54,
+  "embedding_cache": false,
+  "note": "All document embeddings were recomputed on this pass; this proves stable store IDs/counts, not incremental embedding efficiency."
+}

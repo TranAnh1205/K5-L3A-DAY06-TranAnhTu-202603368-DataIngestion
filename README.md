@@ -1,5 +1,7 @@
 # Day 06 · Data Ingestion Engineering
 
+> Bài làm cá nhân của Trần Anh Tú (202603368, L3A): 67 trang báo cáo World Bank, FastEmbed + Qdrant local, ba cấu hình A/B/C, benchmark 20 câu và kết quả dev/test. Xem [hướng dẫn chạy](starter/README.md), [manifest](data/manifest.json), [benchmark](benchmark/README.md), [kết quả](results/README.md) và [báo cáo cá nhân](report/individual/202603368_TranAnhTu.md). Audit trong báo cáo là nhãn AI đề xuất, cần học viên xác nhận trước khi nộp.
+
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
 Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.
@@ -10,7 +12,24 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 
 ## Bắt đầu nhanh
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+Pipeline đã hiện thực trong `starter/src/` và dùng Qdrant local, không cần Docker. Chạy từ thư mục gốc repo trên PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r starter\requirements.txt
+.\.venv\Scripts\python.exe data\prepare_corpus.py
+.\.venv\Scripts\python.exe benchmark\validate.py
+cd starter
+..\.venv\Scripts\python.exe -m src.run
+..\.venv\Scripts\python.exe -m src.check_reingest
+..\.venv\Scripts\python.exe -m src.evaluate --split dev
+..\.venv\Scripts\python.exe -m src.evaluate --split test
+..\.venv\Scripts\python.exe -m src.audit_draft
+```
+
+Lần đầu tải model cần mạng. Chạy dev trước test để chốt chiến lược; test sẽ từ chối nếu benchmark hoặc quy tắc chọn thay đổi. PDF gốc và kho vector local được Git bỏ qua; người chấm có thể tải lại PDF từ nguồn trong manifest. Xem [hướng dẫn chi tiết](starter/README.md).
+
+Minh chứng nạp lặp corpus thật ở [results/full_reingest_check.json](results/full_reingest_check.json). Học viên duyệt đáp án/quote bằng [benchmark/gold_review.md](benchmark/gold_review.md) và nhãn audit bằng [results/audit_review_pack.md](results/audit_review_pack.md) trước khi nộp; các ô xác nhận hiện để trống.
 
 ## 1. Xây pipeline
 
@@ -36,7 +55,7 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 
 | Bạn cần tìm | Tài liệu |
 |---|---|
-| Setup baseline PostgreSQL + pgvector | [starter/README.md](starter/README.md) |
+| Setup pipeline FastEmbed + Qdrant local | [starter/README.md](starter/README.md) |
 | Các bước làm và cách tính chỉ số | [GUIDE.md](GUIDE.md) |
 | Tiến độ trong 4 giờ | [CHECKPOINTS.md](CHECKPOINTS.md) |
 | Năm tiêu chí benchmark và bộ câu hỏi | [BENCHMARK.md](BENCHMARK.md) |
@@ -44,4 +63,4 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Quy tắc sử dụng dữ liệu, AI và API | [RULES.md](RULES.md) |
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
-[data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+[data/format-example.json](data/format-example.json) là ví dụ định dạng từ repo đề bài; corpus thật của bài làm nằm trong [manifest](data/manifest.json). Không xây chatbot vì đề không yêu cầu.

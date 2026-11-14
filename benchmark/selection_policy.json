@@ -1,0 +1,11 @@
+{
+  "locked_before_test": true,
+  "description": "Choose from development retrieval evidence only. Test is for final reporting.",
+  "priority": [
+    "higher evidence_hit_at_3 numerator",
+    "higher hit_at_1 numerator",
+    "fewer stored chunks",
+    "alphabetical strategy ID"
+  ],
+  "scoring_note": "Automatic exact-quote evidence is conservative; manual equivalent evidence will be reported separately. This selection policy is fixed before reading test retrieval results."
+}

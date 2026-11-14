@@ -1,0 +1,502 @@
+{
+  "source_id": "worldbank-vnm-poverty-equity-2024-06",
+  "title": "Viet Nam bi-annual poverty & equity update - June 2024: Towards more inclusive cities",
+  "source_path_or_url": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+  "local_path": "data/raw/world_bank_vietnam_poverty_equity_june_2024.pdf",
+  "publisher": "World Bank",
+  "language": "en",
+  "accessed_at": "2026-11-13",
+  "snapshot_sha256": "5e95b6bcb352fe002e9d4447c6a1e0936a841777e320e5b8e344856829c85ec4",
+  "license_or_permission": "Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO); cite World Bank (2024), report title, Washington DC, and license. Check third-party figures/tables separately before redistributing them.",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/igo/",
+  "physical_page_count": 92,
+  "counting_rule": "Count only selected physical PDF pages with relevant extractable narrative. Printed page numbers are physical page minus 10. Cover, front matter, blank pages, figure-only pages, annex figures, references and back cover are excluded. No page is duplicated.",
+  "excluded_physical_pages": {
+    "1-10": "cover, rights, contents and front matter",
+    "17": "blank",
+    "48-54": "annex figures and Part 2 divider",
+    "72, 78": "mostly figures/maps with little narrative",
+    "88": "annex figure",
+    "89-92": "references, blank page and back cover"
+  },
+  "included_page_count": 67,
+  "total_normalized_characters": 207805,
+  "metadata_filter_field": "section",
+  "metadata_filter_values": [
+    "overview",
+    "part_1_poverty_equity_update",
+    "part_2_urban_inclusion"
+  ],
+  "normalization_for_count": "pypdf extract_text, whitespace collapsed to one space, outer whitespace stripped",
+  "pages": [
+    {
+      "page_id": "pdf-p011",
+      "physical_page": 11,
+      "printed_page": 1,
+      "section": "overview",
+      "normalized_character_count": 3680
+    },
+    {
+      "page_id": "pdf-p012",
+      "physical_page": 12,
+      "printed_page": 2,
+      "section": "overview",
+      "normalized_character_count": 5262
+    },
+    {
+      "page_id": "pdf-p013",
+      "physical_page": 13,
+      "printed_page": 3,
+      "section": "overview",
+      "normalized_character_count": 2566
+    },
+    {
+      "page_id": "pdf-p014",
+      "physical_page": 14,
+      "printed_page": 4,
+      "section": "overview",
+      "normalized_character_count": 4583
+    },
+    {
+      "page_id": "pdf-p015",
+      "physical_page": 15,
+      "printed_page": 5,
+      "section": "overview",
+      "normalized_character_count": 4789
+    },
+    {
+      "page_id": "pdf-p016",
+      "physical_page": 16,
+      "printed_page": 6,
+      "section": "overview",
+      "normalized_character_count": 2428
+    },
+    {
+      "page_id": "pdf-p018",
+      "physical_page": 18,
+      "printed_page": 8,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 942
+    },
+    {
+      "page_id": "pdf-p019",
+      "physical_page": 19,
+      "printed_page": 9,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 970
+    },
+    {
+      "page_id": "pdf-p020",
+      "physical_page": 20,
+      "printed_page": 10,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3547
+    },
+    {
+      "page_id": "pdf-p021",
+      "physical_page": 21,
+      "printed_page": 11,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2522
+    },
+    {
+      "page_id": "pdf-p022",
+      "physical_page": 22,
+      "printed_page": 12,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2945
+    },
+    {
+      "page_id": "pdf-p023",
+      "physical_page": 23,
+      "printed_page": 13,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3124
+    },
+    {
+      "page_id": "pdf-p024",
+      "physical_page": 24,
+      "printed_page": 14,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 1910
+    },
+    {
+      "page_id": "pdf-p025",
+      "physical_page": 25,
+      "printed_page": 15,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3865
+    },
+    {
+      "page_id": "pdf-p026",
+      "physical_page": 26,
+      "printed_page": 16,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3208
+    },
+    {
+      "page_id": "pdf-p027",
+      "physical_page": 27,
+      "printed_page": 17,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 1809
+    },
+    {
+      "page_id": "pdf-p028",
+      "physical_page": 28,
+      "printed_page": 18,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2538
+    },
+    {
+      "page_id": "pdf-p029",
+      "physical_page": 29,
+      "printed_page": 19,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2288
+    },
+    {
+      "page_id": "pdf-p030",
+      "physical_page": 30,
+      "printed_page": 20,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 4357
+    },
+    {
+      "page_id": "pdf-p031",
+      "physical_page": 31,
+      "printed_page": 21,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3407
+    },
+    {
+      "page_id": "pdf-p032",
+      "physical_page": 32,
+      "printed_page": 22,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2706
+    },
+    {
+      "page_id": "pdf-p033",
+      "physical_page": 33,
+      "printed_page": 23,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2524
+    },
+    {
+      "page_id": "pdf-p034",
+      "physical_page": 34,
+      "printed_page": 24,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2784
+    },
+    {
+      "page_id": "pdf-p035",
+      "physical_page": 35,
+      "printed_page": 25,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3118
+    },
+    {
+      "page_id": "pdf-p036",
+      "physical_page": 36,
+      "printed_page": 26,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3563
+    },
+    {
+      "page_id": "pdf-p037",
+      "physical_page": 37,
+      "printed_page": 27,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3182
+    },
+    {
+      "page_id": "pdf-p038",
+      "physical_page": 38,
+      "printed_page": 28,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2285
+    },
+    {
+      "page_id": "pdf-p039",
+      "physical_page": 39,
+      "printed_page": 29,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3188
+    },
+    {
+      "page_id": "pdf-p040",
+      "physical_page": 40,
+      "printed_page": 30,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3073
+    },
+    {
+      "page_id": "pdf-p041",
+      "physical_page": 41,
+      "printed_page": 31,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2653
+    },
+    {
+      "page_id": "pdf-p042",
+      "physical_page": 42,
+      "printed_page": 32,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 3128
+    },
+    {
+      "page_id": "pdf-p043",
+      "physical_page": 43,
+      "printed_page": 33,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 2737
+    },
+    {
+      "page_id": "pdf-p044",
+      "physical_page": 44,
+      "printed_page": 34,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 5071
+    },
+    {
+      "page_id": "pdf-p045",
+      "physical_page": 45,
+      "printed_page": 35,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 4997
+    },
+    {
+      "page_id": "pdf-p046",
+      "physical_page": 46,
+      "printed_page": 36,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 4970
+    },
+    {
+      "page_id": "pdf-p047",
+      "physical_page": 47,
+      "printed_page": 37,
+      "section": "part_1_poverty_equity_update",
+      "normalized_character_count": 4830
+    },
+    {
+      "page_id": "pdf-p055",
+      "physical_page": 55,
+      "printed_page": 45,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 1747
+    },
+    {
+      "page_id": "pdf-p056",
+      "physical_page": 56,
+      "printed_page": 46,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2571
+    },
+    {
+      "page_id": "pdf-p057",
+      "physical_page": 57,
+      "printed_page": 47,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2844
+    },
+    {
+      "page_id": "pdf-p058",
+      "physical_page": 58,
+      "printed_page": 48,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 4018
+    },
+    {
+      "page_id": "pdf-p059",
+      "physical_page": 59,
+      "printed_page": 49,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2122
+    },
+    {
+      "page_id": "pdf-p060",
+      "physical_page": 60,
+      "printed_page": 50,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 3510
+    },
+    {
+      "page_id": "pdf-p061",
+      "physical_page": 61,
+      "printed_page": 51,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 1602
+    },
+    {
+      "page_id": "pdf-p062",
+      "physical_page": 62,
+      "printed_page": 52,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2565
+    },
+    {
+      "page_id": "pdf-p063",
+      "physical_page": 63,
+      "printed_page": 53,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2060
+    },
+    {
+      "page_id": "pdf-p064",
+      "physical_page": 64,
+      "printed_page": 54,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2812
+    },
+    {
+      "page_id": "pdf-p065",
+      "physical_page": 65,
+      "printed_page": 55,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 4234
+    },
+    {
+      "page_id": "pdf-p066",
+      "physical_page": 66,
+      "printed_page": 56,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2882
+    },
+    {
+      "page_id": "pdf-p067",
+      "physical_page": 67,
+      "printed_page": 57,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2754
+    },
+    {
+      "page_id": "pdf-p068",
+      "physical_page": 68,
+      "printed_page": 58,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 4432
+    },
+    {
+      "page_id": "pdf-p069",
+      "physical_page": 69,
+      "printed_page": 59,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 1930
+    },
+    {
+      "page_id": "pdf-p070",
+      "physical_page": 70,
+      "printed_page": 60,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2042
+    },
+    {
+      "page_id": "pdf-p071",
+      "physical_page": 71,
+      "printed_page": 61,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2278
+    },
+    {
+      "page_id": "pdf-p073",
+      "physical_page": 73,
+      "printed_page": 63,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2398
+    },
+    {
+      "page_id": "pdf-p074",
+      "physical_page": 74,
+      "printed_page": 64,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2429
+    },
+    {
+      "page_id": "pdf-p075",
+      "physical_page": 75,
+      "printed_page": 65,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 3646
+    },
+    {
+      "page_id": "pdf-p076",
+      "physical_page": 76,
+      "printed_page": 66,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2891
+    },
+    {
+      "page_id": "pdf-p077",
+      "physical_page": 77,
+      "printed_page": 67,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 3560
+    },
+    {
+      "page_id": "pdf-p079",
+      "physical_page": 79,
+      "printed_page": 69,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2665
+    },
+    {
+      "page_id": "pdf-p080",
+      "physical_page": 80,
+      "printed_page": 70,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 3894
+    },
+    {
+      "page_id": "pdf-p081",
+      "physical_page": 81,
+      "printed_page": 71,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2678
+    },
+    {
+      "page_id": "pdf-p082",
+      "physical_page": 82,
+      "printed_page": 72,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2225
+    },
+    {
+      "page_id": "pdf-p083",
+      "physical_page": 83,
+      "printed_page": 73,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 3226
+    },
+    {
+      "page_id": "pdf-p084",
+      "physical_page": 84,
+      "printed_page": 74,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 2411
+    },
+    {
+      "page_id": "pdf-p085",
+      "physical_page": 85,
+      "printed_page": 75,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 4441
+    },
+    {
+      "page_id": "pdf-p086",
+      "physical_page": 86,
+      "printed_page": 76,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 5021
+    },
+    {
+      "page_id": "pdf-p087",
+      "physical_page": 87,
+      "printed_page": 77,
+      "section": "part_2_urban_inclusion",
+      "normalized_character_count": 4368
+    }
+  ]
+}

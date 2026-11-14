@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_characters,500,50,document_id|source|page|printed_page|section,none,BAAI/bge-small-en-v1.5,Overlapping fixed windows provide a simple baseline but can cut sentences.,8/15,12/15,1/5,2/5,
+B,sentence_groups,500,0,document_id|source|page|printed_page|section,none,BAAI/bge-small-en-v1.5,Grouping complete sentences may improve chunk coherence versus A.,10/15,11/15,1/5,3/5,
+C,sentence_groups,500,0,document_id|source|page|printed_page|section,section_when_provided,BAAI/bge-small-en-v1.5,Adding a trusted section filter may improve retrieval on scoped questions versus B.,10/15,11/15,1/5,4/5,

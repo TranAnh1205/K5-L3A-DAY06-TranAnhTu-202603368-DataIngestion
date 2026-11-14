@@ -1,0 +1,3131 @@
+[
+  {
+    "strategy": "A",
+    "id": "d01",
+    "split": "dev",
+    "question": "What labor shift helped reduce both poverty and inequality in Viet Nam from 2010 to 2014?",
+    "expected_answer": "A shift from agriculture into manufacturing and service jobs.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 11,
+    "evidence_quote": "From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "dae9b91eb9df9e71d469e44fb5b4dae4",
+        "text": "Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty and equity dynamics in Viet Nam can be described across three distinct phases (Figure O.1). First, at the start of the decade, there was rapid poverty reduction accompanied by declining inequality. From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs. Most of these non-farm jobs were still low-skilled, and agricultural laborers could easily",
+        "score": 0.8076112174143164,
+        "metadata": {
+          "chunk_id": "dae9b91eb9df9e71d469e44fb5b4dae4",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 11,
+          "section": "overview",
+          "printed_page": 1
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "691fd577c983f9a576a8c7cf2d3841e9",
+        "text": "y dynamics The movement from farm income to higher wage income is a key driver of Viet Nam’s successful poverty reduction and progressive patterns of upwards economic mobility. While fewer families were earning incomes from family farms, most regions experienced a comparable rise in the share of households that received wage income (mainly in non-farm sectors). The number of households earning a combination of labor incomes from wage and farm incomes grew until 2018 (Figure 23). From 2020, the n",
+        "score": 0.7560628919016013,
+        "metadata": {
+          "chunk_id": "691fd577c983f9a576a8c7cf2d3841e9",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 36,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 26
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "3f96959db8316f18b04973ab0c04f67f",
+        "text": "2. sources and dynamics behind changes in Poverty Towards more inclusive cities 29 Labor trends during and post-pandemic are also affected by the demographic transition. Viet Nam’s labor force is getting smaller both from aging, but also from a younger population entering the labor force later due to higher education completion (Figure 29). Education is improving, but there are regional differences. In poorer regions, individuals enter the labor force sooner due to lower education completion, bu",
+        "score": 0.750117717088019,
+        "metadata": {
+          "chunk_id": "3f96959db8316f18b04973ab0c04f67f",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 39,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 29
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d01",
+    "split": "dev",
+    "question": "What labor shift helped reduce both poverty and inequality in Viet Nam from 2010 to 2014?",
+    "expected_answer": "A shift from agriculture into manufacturing and service jobs.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 11,
+    "evidence_quote": "From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "0f12dc4bf5518594100ce097ab2abd59",
+        "text": "Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty and equity dynamics in Viet Nam can be described across three distinct phases (Figure O.1). First, at the start of the decade, there was rapid poverty reduction accompanied by declining inequality. From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs.",
+        "score": 0.8023818209673218,
+        "metadata": {
+          "chunk_id": "0f12dc4bf5518594100ce097ab2abd59",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 11,
+          "section": "overview",
+          "printed_page": 1
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "cfc9fb3822a897c9c5fd8327ced6c3ca",
+        "text": "Transition out of agriculture is linked with income and poverty dynamics The movement from farm income to higher wage income is a key driver of Viet Nam’s successful poverty reduction and progressive patterns of upwards economic mobility. While fewer families were earning incomes from family farms, most regions experienced a comparable rise in the share of households that received wage income (mainly in non-farm sectors).",
+        "score": 0.7651389848534652,
+        "metadata": {
+          "chunk_id": "cfc9fb3822a897c9c5fd8327ced6c3ca",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 36,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 26
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "dd696cd3fab13a7b19d9bea4e2a6428b",
+        "text": "Recent changes in poverty in Viet Nam – three phases -10 -8 -6 -4 -2 0 2 4 6 2010-12 2012-14 2014-16 2016-18 2018-20 2020-22 Poverty reduction and declining inequality ﻿Poverty reduction and small increase in inequality COVID-19 period Pecentage point change in poverty rate Growth Distribution Figure O1 Figure O2 Figure O4 Figure O6 Figure O5 -2 -1 0 1 2 3 4 5 6 Annualized growth (%) 2020-22 1-National 2-Urban 3-Rural 0% 5% 10% 15% 20% 25% 30% 35% 40% 45%Urban share (%) Share of LMIC poor Share ",
+        "score": 0.7600625832222642,
+        "metadata": {
+          "chunk_id": "dd696cd3fab13a7b19d9bea4e2a6428b",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 11,
+          "section": "overview",
+          "printed_page": 1
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d01",
+    "split": "dev",
+    "question": "What labor shift helped reduce both poverty and inequality in Viet Nam from 2010 to 2014?",
+    "expected_answer": "A shift from agriculture into manufacturing and service jobs.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 11,
+    "evidence_quote": "From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "0f12dc4bf5518594100ce097ab2abd59",
+        "text": "Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty and equity dynamics in Viet Nam can be described across three distinct phases (Figure O.1). First, at the start of the decade, there was rapid poverty reduction accompanied by declining inequality. From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs.",
+        "score": 0.8023818209673218,
+        "metadata": {
+          "chunk_id": "0f12dc4bf5518594100ce097ab2abd59",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 11,
+          "section": "overview",
+          "printed_page": 1
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "cfc9fb3822a897c9c5fd8327ced6c3ca",
+        "text": "Transition out of agriculture is linked with income and poverty dynamics The movement from farm income to higher wage income is a key driver of Viet Nam’s successful poverty reduction and progressive patterns of upwards economic mobility. While fewer families were earning incomes from family farms, most regions experienced a comparable rise in the share of households that received wage income (mainly in non-farm sectors).",
+        "score": 0.7651389848534654,
+        "metadata": {
+          "chunk_id": "cfc9fb3822a897c9c5fd8327ced6c3ca",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 36,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 26
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "dd696cd3fab13a7b19d9bea4e2a6428b",
+        "text": "Recent changes in poverty in Viet Nam – three phases -10 -8 -6 -4 -2 0 2 4 6 2010-12 2012-14 2014-16 2016-18 2018-20 2020-22 Poverty reduction and declining inequality ﻿Poverty reduction and small increase in inequality COVID-19 period Pecentage point change in poverty rate Growth Distribution Figure O1 Figure O2 Figure O4 Figure O6 Figure O5 -2 -1 0 1 2 3 4 5 6 Annualized growth (%) 2020-22 1-National 2-Urban 3-Rural 0% 5% 10% 15% 20% 25% 30% 35% 40% 45%Urban share (%) Share of LMIC poor Share ",
+        "score": 0.7600625832222642,
+        "metadata": {
+          "chunk_id": "dd696cd3fab13a7b19d9bea4e2a6428b",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 11,
+          "section": "overview",
+          "printed_page": 1
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d02",
+    "split": "dev",
+    "question": "How did household consumption change in Viet Nam between 2020 and 2022?",
+    "expected_answer": "It contracted.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 12,
+    "evidence_quote": "Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2).",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "3cbed2e445c8be500753feba7da2a268",
+        "text": "larger decline in consumption versus income, suggests both effects of falling income and precautionary savings in Viet Nam. Households along the entire distribution felt some impact. Between 2020 and 2022, the share of the middle- class in rural areas stagnated, while in urban areas the decline was more pronounced (52 to 43 percent). The poor were still affected, however, since they are vulnerable to even small shocks. For households already below the poverty line, worsening conditions may go u",
+        "score": 0.8305941718256429,
+        "metadata": {
+          "chunk_id": "3cbed2e445c8be500753feba7da2a268",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "1be9f3a230bcf69bba127f61dbe77670",
+        "text": "2 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2). Notably, households spent less on eating out, non-essential food items like ice cream, and non-food items like clothing. With the avoidance of public spaces, more households consumed food grown at home. Expenditures on education and health also declined as schools reduc",
+        "score": 0.8261587141285138,
+        "metadata": {
+          "chunk_id": "1be9f3a230bcf69bba127f61dbe77670",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "25bf025447d2b41023edc49550d51bfd",
+        "text": "2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 2022 Figure 4. 30 years of poverty trends in Viet Nam, 1992-2022 Figure 5. If your household stopped earning income today, how long could you survive on? Note: Urban households only. Source: W orld Bank Viet Nam COVID-19 household phone surveys. Figure 6. Growth incidence curves, household consumption Annualized growth (%) -2 -1 0 1 2 3 4 5 -2 -1 0 1 2 3 4 5 Annualized growth (%) 1-National 2-Urban 3-Rural 1-National 2-Urban 3-Rural 2010-22 2020",
+        "score": 0.8204924230186253,
+        "metadata": {
+          "chunk_id": "25bf025447d2b41023edc49550d51bfd",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 23,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 13
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d02",
+    "split": "dev",
+    "question": "How did household consumption change in Viet Nam between 2020 and 2022?",
+    "expected_answer": "It contracted.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 12,
+    "evidence_quote": "Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2).",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "411e90c4d5cc1eb909952f94a4fdbdf6",
+        "text": "A larger decline in consumption versus income, suggests both effects of falling income and precautionary savings in Viet Nam. Households along the entire distribution felt some impact. Between 2020 and 2022, the share of the middle- class in rural areas stagnated, while in urban areas the decline was more pronounced (52 to 43 percent). The poor were still affected, however, since they are vulnerable to even small shocks.",
+        "score": 0.8374397004407566,
+        "metadata": {
+          "chunk_id": "411e90c4d5cc1eb909952f94a4fdbdf6",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "ae4f91dc4051d6f121a974297fa255b8",
+        "text": "2 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2). Notably, households spent less on eating out, non-essential food items like ice cream, and non-food items like clothing. With the avoidance of public spaces, more households consumed food grown at home.",
+        "score": 0.8327791259752222,
+        "metadata": {
+          "chunk_id": "ae4f91dc4051d6f121a974297fa255b8",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "249fa182b33a9c0cc70ddcf21e770887",
+        "text": "However, this is not unique to the 2022 survey year, and applies across all survey years (see Annex B). Urban areas were mainly affected by lockdowns, and Viet Nam’s export-intensive sectors also suffered from lower global demand. Comparing incomes from Q1-2020 to Q1-2023, rural incomes showed higher growth than urban ones. In 2022, progress in poverty reduction stalled9 In 2022, progress in poverty reduction stalled based on poverty measurement using household consumption.",
+        "score": 0.8204192847957206,
+        "metadata": {
+          "chunk_id": "249fa182b33a9c0cc70ddcf21e770887",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 21,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 11
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d02",
+    "split": "dev",
+    "question": "How did household consumption change in Viet Nam between 2020 and 2022?",
+    "expected_answer": "It contracted.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 12,
+    "evidence_quote": "Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2).",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "411e90c4d5cc1eb909952f94a4fdbdf6",
+        "text": "A larger decline in consumption versus income, suggests both effects of falling income and precautionary savings in Viet Nam. Households along the entire distribution felt some impact. Between 2020 and 2022, the share of the middle- class in rural areas stagnated, while in urban areas the decline was more pronounced (52 to 43 percent). The poor were still affected, however, since they are vulnerable to even small shocks.",
+        "score": 0.8374397004407566,
+        "metadata": {
+          "chunk_id": "411e90c4d5cc1eb909952f94a4fdbdf6",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "ae4f91dc4051d6f121a974297fa255b8",
+        "text": "2 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2). Notably, households spent less on eating out, non-essential food items like ice cream, and non-food items like clothing. With the avoidance of public spaces, more households consumed food grown at home.",
+        "score": 0.8327791259752222,
+        "metadata": {
+          "chunk_id": "ae4f91dc4051d6f121a974297fa255b8",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "249fa182b33a9c0cc70ddcf21e770887",
+        "text": "However, this is not unique to the 2022 survey year, and applies across all survey years (see Annex B). Urban areas were mainly affected by lockdowns, and Viet Nam’s export-intensive sectors also suffered from lower global demand. Comparing incomes from Q1-2020 to Q1-2023, rural incomes showed higher growth than urban ones. In 2022, progress in poverty reduction stalled9 In 2022, progress in poverty reduction stalled based on poverty measurement using household consumption.",
+        "score": 0.8204192847957206,
+        "metadata": {
+          "chunk_id": "249fa182b33a9c0cc70ddcf21e770887",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 21,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 11
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d03",
+    "split": "dev",
+    "question": "What two household-level changes accompanied the stall in poverty reduction in 2022?",
+    "expected_answer": "Household consumption declined and income growth tapered.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 20,
+    "evidence_quote": "Lastly, in 2022, after extended adverse impacts related to COVID-19, poverty reduction stalled as household consumption declined, and income growth tapered.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "f1ee3a0a072f170ecb79a29df1e28dca",
+        "text": "e Annex B). Urban areas were mainly affected by lockdowns, and Viet Nam’s export-intensive sectors also suffered from lower global demand. Comparing incomes from Q1-2020 to Q1-2023, rural incomes showed higher growth than urban ones. In 2022, progress in poverty reduction stalled9 In 2022, progress in poverty reduction stalled based on poverty measurement using household consumption. Poverty reduction between 2018 and 2020 were statistically significant, but changes between 2020 and 2022 are not",
+        "score": 0.7784313473242944,
+        "metadata": {
+          "chunk_id": "f1ee3a0a072f170ecb79a29df1e28dca",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 21,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 11
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "72cf71614df0950bfc2195a6027ef526",
+        "text": "ew jobs. This was followed by a period of continued poverty reduction, but accompanied by a slight rise in inequality from 2014-20. During this second phase, structural transformation continued, but as non-farm wages increased rapidly, farming income did not rise as quickly and more recently has been declining. Lastly, in 2022, after extended adverse impacts related to COVID-19, poverty reduction stalled as household consumption declined, and income growth tapered. 8 See W orld Bank 2022b. Viet",
+        "score": 0.7609347432605075,
+        "metadata": {
+          "chunk_id": "72cf71614df0950bfc2195a6027ef526",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 20,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 10
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "2cfa28ffb0512825a618b026988d44e5",
+        "text": "hold consumption growth declined compared to 2020, and income growth slowed. Dynamics during this distinctive and short period from 2020 to 2022 is the focus of analysis in Part 1 of this report2. A decade of successful poverty reduction stalled during the COVID-19 pandemic 3. In Viet Nam, poverty rates declined in 2020 during the onset of the health crisis, but more negative impacts were seen later during 2021-22. A stagnation in poverty reduction in 2022 was related to the later arrival of COV",
+        "score": 0.7522047136875967,
+        "metadata": {
+          "chunk_id": "2cfa28ffb0512825a618b026988d44e5",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 11,
+          "section": "overview",
+          "printed_page": 1
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d03",
+    "split": "dev",
+    "question": "What two household-level changes accompanied the stall in poverty reduction in 2022?",
+    "expected_answer": "Household consumption declined and income growth tapered.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 20,
+    "evidence_quote": "Lastly, in 2022, after extended adverse impacts related to COVID-19, poverty reduction stalled as household consumption declined, and income growth tapered.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "249fa182b33a9c0cc70ddcf21e770887",
+        "text": "However, this is not unique to the 2022 survey year, and applies across all survey years (see Annex B). Urban areas were mainly affected by lockdowns, and Viet Nam’s export-intensive sectors also suffered from lower global demand. Comparing incomes from Q1-2020 to Q1-2023, rural incomes showed higher growth than urban ones. In 2022, progress in poverty reduction stalled9 In 2022, progress in poverty reduction stalled based on poverty measurement using household consumption.",
+        "score": 0.7802914692362021,
+        "metadata": {
+          "chunk_id": "249fa182b33a9c0cc70ddcf21e770887",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 21,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 11
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "ba3f5cedb99c0771c7ea3ea2d51e957a",
+        "text": "The stagnation and reversal of poverty reduction mid-decade is linked to lower household farm production incomes that were not offset by growth in other labor income sources, especially for households in the middle of the distribution. In 2020, severe droughts coincided with a non- statistically significant increase in regional poverty rates. In 2022, poverty rates in the Mekong Delta rose a second time.",
+        "score": 0.7595957805835412,
+        "metadata": {
+          "chunk_id": "ba3f5cedb99c0771c7ea3ea2d51e957a",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 25,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 15
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "650efa157270cb34dd3201d5aaa3461e",
+        "text": "Figure 38 illustrates actual poverty rates and poverty projections based on pre- and post-COVID estimates. Actual poverty rates in 2022 were higher than predicted using earlier growth forecasts. Earlier forecasts did not consider the potentially long-lasting and residual effects from the economic slowdown onto households. Revised poverty projections up to 2026 show renewed progress.",
+        "score": 0.7548912217451945,
+        "metadata": {
+          "chunk_id": "650efa157270cb34dd3201d5aaa3461e",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 43,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 33
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d03",
+    "split": "dev",
+    "question": "What two household-level changes accompanied the stall in poverty reduction in 2022?",
+    "expected_answer": "Household consumption declined and income growth tapered.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 20,
+    "evidence_quote": "Lastly, in 2022, after extended adverse impacts related to COVID-19, poverty reduction stalled as household consumption declined, and income growth tapered.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "249fa182b33a9c0cc70ddcf21e770887",
+        "text": "However, this is not unique to the 2022 survey year, and applies across all survey years (see Annex B). Urban areas were mainly affected by lockdowns, and Viet Nam’s export-intensive sectors also suffered from lower global demand. Comparing incomes from Q1-2020 to Q1-2023, rural incomes showed higher growth than urban ones. In 2022, progress in poverty reduction stalled9 In 2022, progress in poverty reduction stalled based on poverty measurement using household consumption.",
+        "score": 0.7802914692362021,
+        "metadata": {
+          "chunk_id": "249fa182b33a9c0cc70ddcf21e770887",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 21,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 11
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "ba3f5cedb99c0771c7ea3ea2d51e957a",
+        "text": "The stagnation and reversal of poverty reduction mid-decade is linked to lower household farm production incomes that were not offset by growth in other labor income sources, especially for households in the middle of the distribution. In 2020, severe droughts coincided with a non- statistically significant increase in regional poverty rates. In 2022, poverty rates in the Mekong Delta rose a second time.",
+        "score": 0.7595957805835412,
+        "metadata": {
+          "chunk_id": "ba3f5cedb99c0771c7ea3ea2d51e957a",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 25,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 15
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "650efa157270cb34dd3201d5aaa3461e",
+        "text": "Figure 38 illustrates actual poverty rates and poverty projections based on pre- and post-COVID estimates. Actual poverty rates in 2022 were higher than predicted using earlier growth forecasts. Earlier forecasts did not consider the potentially long-lasting and residual effects from the economic slowdown onto households. Revised poverty projections up to 2026 show renewed progress.",
+        "score": 0.7548912217451945,
+        "metadata": {
+          "chunk_id": "650efa157270cb34dd3201d5aaa3461e",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 43,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 33
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d04",
+    "split": "dev",
+    "question": "In Part 1 of the report, what share of the urban bottom 40 percent said in April 2022 that their savings would last less than one month if income stopped, compared with the top 60 percent?",
+    "expected_answer": "47 percent of the bottom 40 percent, compared with 33 percent of the top 60 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 24,
+    "evidence_quote": "47 percent of the bottom-40 in urban areas reported that if their incomes stopped, they would only have sufficient savings to survive for less than one month, compared to 33 percent of the top-60 (Figure 8).",
+    "filter_requested": {
+      "section": "part_1_poverty_equity_update"
+    },
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "84700b25f5f321d9c1967d6aa179ab1e",
+        "text": "today, by bottom-40 and top-60 24 33 14 29 33 25 12 31 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%Share of households (%) 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%Share of households (%) 38 27 10 26 47 21 12 20 December 2021 - January 2022 April-May, 2022 Less than one month 1 - 3 months 3 - 6 months More than 6 months December 2021 - January 2022 April-May, 2022 Less than one month 1 - 3 months 3 - 6 months More than 6 months Figure 8 Bottom-40 Top-60 Note: Urban samples only. Source: W orld",
+        "score": 0.7697460306349997,
+        "metadata": {
+          "chunk_id": "84700b25f5f321d9c1967d6aa179ab1e",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 24,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 14
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "24dd219ae1c386772415736f77937822",
+        "text": "egative event that reduced household income), while having less savings and safety nets than better-off households. For example, in April 2022, 47 percent of the bottom-40 in urban areas reported that if their incomes stopped, they would only have sufficient savings to survive for less than one month, compared to 33 percent of the top-60 (Figure 8). Figure 7. Poverty rates by urban and rural area, 2010-22 10 0 20 30 40 50 60 2010 2012 2014 2016 2018 2020 2022 Poverty rate (%) 10 0 20 30 40 50 60",
+        "score": 0.7536952037058484,
+        "metadata": {
+          "chunk_id": "24dd219ae1c386772415736f77937822",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 24,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 14
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "0ba382ae349f9fa09b2ff1be1c18b487",
+        "text": "Residual effects from these restrictions lasted into 2022. In the Southeast region, from April-May 2022, as many as 43 percent of urban households reported that if they stopped earning incomes, their savings would last for less than one month (W orld Bank COVID-19 household surveys, round 7). At the UMIC poverty line ($6.85/day 2017 PPP), poverty rates in the Southeast region climbed from 0.28 percent in 2020 to 1.06 percent in 2022. The medium-term increases in poverty in the Mekong Delta regio",
+        "score": 0.7406138615725278,
+        "metadata": {
+          "chunk_id": "0ba382ae349f9fa09b2ff1be1c18b487",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 25,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 15
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d04",
+    "split": "dev",
+    "question": "In Part 1 of the report, what share of the urban bottom 40 percent said in April 2022 that their savings would last less than one month if income stopped, compared with the top 60 percent?",
+    "expected_answer": "47 percent of the bottom 40 percent, compared with 33 percent of the top 60 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 24,
+    "evidence_quote": "47 percent of the bottom-40 in urban areas reported that if their incomes stopped, they would only have sufficient savings to survive for less than one month, compared to 33 percent of the top-60 (Figure 8).",
+    "filter_requested": {
+      "section": "part_1_poverty_equity_update"
+    },
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "f95d1da985c9fc7b87717b4ce8d15f85",
+        "text": "During 2022, vulnerable groups in urban areas were more likely to report experiencing a shock (a negative event that reduced household income), while having less savings and safety nets than better-off households. For example, in April 2022, 47 percent of the bottom-40 in urban areas reported that if their incomes stopped, they would only have sufficient savings to survive for less than one month, compared to 33 percent of the top-60 (Figure 8). Figure 7.",
+        "score": 0.8143795058435253,
+        "metadata": {
+          "chunk_id": "f95d1da985c9fc7b87717b4ce8d15f85",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 24,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 14
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "bae14c1e36b7f86834f1482fbee78cd1",
+        "text": "How long can households economically survive if their incomes stopped today, by bottom-40 and top-60 24 33 14 29 33 25 12 31 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%Share of households (%) 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%Share of households (%) 38 27 10 26 47 21 12 20 December 2021 - January 2022 April-May, 2022 Less than one month 1 - 3 months 3 - 6 months More than 6 months December 2021 - January 2022 April-May, 2022 Less than one month 1 - 3 months 3 - 6 months More than 6 mont",
+        "score": 0.7304203349809222,
+        "metadata": {
+          "chunk_id": "bae14c1e36b7f86834f1482fbee78cd1",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 24,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 14
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "4fe46050a0fa008655749fd76ba7020c",
+        "text": "The share of UMIC poor from urban areas rose to 20 percent in 2022, compared to 13 percent in 2020. Figure 5. If your household stopped earning income today, how long could you survive?",
+        "score": 0.7064681590977525,
+        "metadata": {
+          "chunk_id": "4fe46050a0fa008655749fd76ba7020c",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 23,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 13
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d04",
+    "split": "dev",
+    "question": "In Part 1 of the report, what share of the urban bottom 40 percent said in April 2022 that their savings would last less than one month if income stopped, compared with the top 60 percent?",
+    "expected_answer": "47 percent of the bottom 40 percent, compared with 33 percent of the top 60 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 24,
+    "evidence_quote": "47 percent of the bottom-40 in urban areas reported that if their incomes stopped, they would only have sufficient savings to survive for less than one month, compared to 33 percent of the top-60 (Figure 8).",
+    "filter_requested": {
+      "section": "part_1_poverty_equity_update"
+    },
+    "filter_applied": {
+      "section": "part_1_poverty_equity_update"
+    },
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "f95d1da985c9fc7b87717b4ce8d15f85",
+        "text": "During 2022, vulnerable groups in urban areas were more likely to report experiencing a shock (a negative event that reduced household income), while having less savings and safety nets than better-off households. For example, in April 2022, 47 percent of the bottom-40 in urban areas reported that if their incomes stopped, they would only have sufficient savings to survive for less than one month, compared to 33 percent of the top-60 (Figure 8). Figure 7.",
+        "score": 0.8143795058435253,
+        "metadata": {
+          "chunk_id": "f95d1da985c9fc7b87717b4ce8d15f85",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 24,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 14
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "bae14c1e36b7f86834f1482fbee78cd1",
+        "text": "How long can households economically survive if their incomes stopped today, by bottom-40 and top-60 24 33 14 29 33 25 12 31 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%Share of households (%) 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%Share of households (%) 38 27 10 26 47 21 12 20 December 2021 - January 2022 April-May, 2022 Less than one month 1 - 3 months 3 - 6 months More than 6 months December 2021 - January 2022 April-May, 2022 Less than one month 1 - 3 months 3 - 6 months More than 6 mont",
+        "score": 0.7304203349809222,
+        "metadata": {
+          "chunk_id": "bae14c1e36b7f86834f1482fbee78cd1",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 24,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 14
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "4fe46050a0fa008655749fd76ba7020c",
+        "text": "The share of UMIC poor from urban areas rose to 20 percent in 2022, compared to 13 percent in 2020. Figure 5. If your household stopped earning income today, how long could you survive?",
+        "score": 0.7064681590977525,
+        "metadata": {
+          "chunk_id": "4fe46050a0fa008655749fd76ba7020c",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 23,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 13
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d05",
+    "split": "dev",
+    "question": "During the health crisis, which coping strategies did the report identify for poor households facing lower incomes?",
+    "expected_answer": "Reducing food and non-food consumption or accepting help from NGOs or the government.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 26,
+    "evidence_quote": "For poor households, primary strategies to cope with negative shocks and lower incomes during the health crisis included reducing food and non-food consumption or accepting assistance from either non-governmental organizations (NGOs) or the government.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "ff38e797c3092065501001bf596a3ab6",
+        "text": "even small shocks, while richer households have better coping mechanisms. For poor households, primary strategies to cope with negative shocks and lower incomes during the health crisis included reducing food and non-food consumption or accepting assistance from either non-governmental organizations (NGOs) or the government. T apping savings tended to be a coping strategy more readily available to richer households. As a strategy to smooth consumption, relying on savings is less likely for poor",
+        "score": 0.8452894085367509,
+        "metadata": {
+          "chunk_id": "ff38e797c3092065501001bf596a3ab6",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 26,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 16
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "e7b5a61e34b71c6c5f696447e0d9d3e0",
+        "text": "PART 1. POVERTY & EQUITY UPDATE 16 Viet Nam bi-annual poverty & equity update - June 2024 The vulnerable have fewer coping strategies and experienced worsening conditions For the poor, even small changes in consumption can lead to falls deeper into poverty or result in insufficient consumption and nutrition. Thus, any amount of reversal in progress is of concern. The vulnerable were still affected during COVID-19, since they can be vulnerable to even small shocks, while richer households have be",
+        "score": 0.7621486769134782,
+        "metadata": {
+          "chunk_id": "e7b5a61e34b71c6c5f696447e0d9d3e0",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 26,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 16
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "d543f7d47500c627322ed48d4ec7a357",
+        "text": "owed growth in this income source and coupled with continuing declines in farm production income among the poor and near-poor, an aging population and low amounts of transfers to compensate for falls in labor income, consumption-based poverty reduction stagnated. Delayed negative impacts in 2022 were related to the later arrival of COVID-19 and subsequent lockdowns, as well as households applying coping mechanisms in the early phase of the pandemic 10. While other nations were recovering or adju",
+        "score": 0.742756042652884,
+        "metadata": {
+          "chunk_id": "d543f7d47500c627322ed48d4ec7a357",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 22,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 12
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d05",
+    "split": "dev",
+    "question": "During the health crisis, which coping strategies did the report identify for poor households facing lower incomes?",
+    "expected_answer": "Reducing food and non-food consumption or accepting help from NGOs or the government.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 26,
+    "evidence_quote": "For poor households, primary strategies to cope with negative shocks and lower incomes during the health crisis included reducing food and non-food consumption or accepting assistance from either non-governmental organizations (NGOs) or the government.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "f991007bd31ee8e79f19e141589cc8a5",
+        "text": "The vulnerable were still affected during COVID-19, since they can be vulnerable to even small shocks, while richer households have better coping mechanisms. For poor households, primary strategies to cope with negative shocks and lower incomes during the health crisis included reducing food and non-food consumption or accepting assistance from either non-governmental organizations (NGOs) or the government.",
+        "score": 0.7954017300989371,
+        "metadata": {
+          "chunk_id": "f991007bd31ee8e79f19e141589cc8a5",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 26,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 16
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "b78c050f8f29238f345ba8a8cc961e78",
+        "text": "The health crisis slowed growth in this income source and coupled with continuing declines in farm production income among the poor and near-poor, an aging population and low amounts of transfers to compensate for falls in labor income, consumption-based poverty reduction stagnated. Delayed negative impacts in 2022 were related to the later arrival of COVID-19 and subsequent lockdowns, as well as households applying coping mechanisms in the early phase of the pandemic 10.",
+        "score": 0.7559987270774374,
+        "metadata": {
+          "chunk_id": "b78c050f8f29238f345ba8a8cc961e78",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 22,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 12
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "4339cdd4b83cedf1394b2f236b845acc",
+        "text": "PART 1. POVERTY & EQUITY UPDATE 16 Viet Nam bi-annual poverty & equity update - June 2024 The vulnerable have fewer coping strategies and experienced worsening conditions For the poor, even small changes in consumption can lead to falls deeper into poverty or result in insufficient consumption and nutrition. Thus, any amount of reversal in progress is of concern.",
+        "score": 0.7536728868139606,
+        "metadata": {
+          "chunk_id": "4339cdd4b83cedf1394b2f236b845acc",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 26,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 16
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d05",
+    "split": "dev",
+    "question": "During the health crisis, which coping strategies did the report identify for poor households facing lower incomes?",
+    "expected_answer": "Reducing food and non-food consumption or accepting help from NGOs or the government.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 26,
+    "evidence_quote": "For poor households, primary strategies to cope with negative shocks and lower incomes during the health crisis included reducing food and non-food consumption or accepting assistance from either non-governmental organizations (NGOs) or the government.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "f991007bd31ee8e79f19e141589cc8a5",
+        "text": "The vulnerable were still affected during COVID-19, since they can be vulnerable to even small shocks, while richer households have better coping mechanisms. For poor households, primary strategies to cope with negative shocks and lower incomes during the health crisis included reducing food and non-food consumption or accepting assistance from either non-governmental organizations (NGOs) or the government.",
+        "score": 0.7954017300989371,
+        "metadata": {
+          "chunk_id": "f991007bd31ee8e79f19e141589cc8a5",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 26,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 16
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "b78c050f8f29238f345ba8a8cc961e78",
+        "text": "The health crisis slowed growth in this income source and coupled with continuing declines in farm production income among the poor and near-poor, an aging population and low amounts of transfers to compensate for falls in labor income, consumption-based poverty reduction stagnated. Delayed negative impacts in 2022 were related to the later arrival of COVID-19 and subsequent lockdowns, as well as households applying coping mechanisms in the early phase of the pandemic 10.",
+        "score": 0.7559987270774374,
+        "metadata": {
+          "chunk_id": "b78c050f8f29238f345ba8a8cc961e78",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 22,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 12
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "4339cdd4b83cedf1394b2f236b845acc",
+        "text": "PART 1. POVERTY & EQUITY UPDATE 16 Viet Nam bi-annual poverty & equity update - June 2024 The vulnerable have fewer coping strategies and experienced worsening conditions For the poor, even small changes in consumption can lead to falls deeper into poverty or result in insufficient consumption and nutrition. Thus, any amount of reversal in progress is of concern.",
+        "score": 0.7536728868139606,
+        "metadata": {
+          "chunk_id": "4339cdd4b83cedf1394b2f236b845acc",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 26,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 16
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d06",
+    "split": "dev",
+    "question": "Why can household consumption be more regular than income for measuring welfare?",
+    "expected_answer": "Savings or borrowing can smooth irregular income, making consumption more regular.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 30,
+    "evidence_quote": "Consumption is often more regular, as savings or borrowing is used to smooth out lumpy incomes.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "d49cfc3b1630b8b8661139e3d381e376",
+        "text": "ncome. This is often chosen because for many poor households, informal incomes can be lumpy and look quite different when measured in one week compared to another, varying with the agricultural season, the amount of business a home enterprise conducts, or the number of hours of casual labor they can sell. Consumption is often more regular, as savings or borrowing is used to smooth out lumpy incomes. Thus, consumption is a close reflection of their average welfare or living standards. In higher-i",
+        "score": 0.8094976266054725,
+        "metadata": {
+          "chunk_id": "d49cfc3b1630b8b8661139e3d381e376",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 30,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 20
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "7208f7fb7fb56fbc3ceea717dfd48980",
+        "text": "m, household consumption was adversely impacted at both ends of the distribution, and inequality declined. Household consumption declined along the entire welfare distribution, but relatively more for those at the top of the distribution. Average household consumption among the top 10 of the population was 10- 11 times greater than the bottom 10. In 2022, the drop in consumption of the top 10 percent was more pronounced than among the bottom 10 percent. Absolute gaps have been widening up to 202",
+        "score": 0.775805267596501,
+        "metadata": {
+          "chunk_id": "7208f7fb7fb56fbc3ceea717dfd48980",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 28,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 18
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "c6d4395371db0b26608542eaac11b29b",
+        "text": "r average welfare or living standards. In higher-income countries, national aggregates are often based on household current income. As populations live farther from the concept of minimum needs, households are more likely to have stable formal incomes, and thresholds reflect what is regarded to be needed to maintain middle-class living standards. For Viet Nam, global poverty monitoring is based on welfare measured by household consumption (Ravallion, 2015; Deaton and Zaidi 2002; Mancini and V ec",
+        "score": 0.7598123371957557,
+        "metadata": {
+          "chunk_id": "c6d4395371db0b26608542eaac11b29b",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 30,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 20
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d06",
+    "split": "dev",
+    "question": "Why can household consumption be more regular than income for measuring welfare?",
+    "expected_answer": "Savings or borrowing can smooth irregular income, making consumption more regular.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 30,
+    "evidence_quote": "Consumption is often more regular, as savings or borrowing is used to smooth out lumpy incomes.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "d6a9a0f45dfb72156f385c04f76e2718",
+        "text": "This is often chosen because for many poor households, informal incomes can be lumpy and look quite different when measured in one week compared to another, varying with the agricultural season, the amount of business a home enterprise conducts, or the number of hours of casual labor they can sell. Consumption is often more regular, as savings or borrowing is used to smooth out lumpy incomes. Thus, consumption is a close reflection of their average welfare or living standards.",
+        "score": 0.8401985595336627,
+        "metadata": {
+          "chunk_id": "d6a9a0f45dfb72156f385c04f76e2718",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 30,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 20
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "8d5c9070a5ba37c014d9f75a50e25608",
+        "text": "Across the distribution, welfare as measured by household consumption per capita declined more in urban households than rural households. Nationally, average consumption growth was negative, with larger declines at the top rather than at the bottom of the distribution. Changes in poverty were more pronounced at the UMIC than the LMIC poverty line, also reflecting that negative impacts were felt more along the middle and higher ends of the distribution (Figure 7).",
+        "score": 0.7903867228846367,
+        "metadata": {
+          "chunk_id": "8d5c9070a5ba37c014d9f75a50e25608",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 23,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 13
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "9088c43c19e50932459c5e866ed23ed2",
+        "text": "Access to amenities and housing features impact the quality of daily life. Investment in human capital and levels in younger generations are strongly associated with economic outcomes in later years. The wealth index is a proxy for household purchasing power and income. Environmental risks28, such as exposure to floods, can also erode household welfare through damage to household assets or limiting transportation and access to jobs.",
+        "score": 0.7558473947817699,
+        "metadata": {
+          "chunk_id": "9088c43c19e50932459c5e866ed23ed2",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 73,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 63
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d06",
+    "split": "dev",
+    "question": "Why can household consumption be more regular than income for measuring welfare?",
+    "expected_answer": "Savings or borrowing can smooth irregular income, making consumption more regular.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 30,
+    "evidence_quote": "Consumption is often more regular, as savings or borrowing is used to smooth out lumpy incomes.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "d6a9a0f45dfb72156f385c04f76e2718",
+        "text": "This is often chosen because for many poor households, informal incomes can be lumpy and look quite different when measured in one week compared to another, varying with the agricultural season, the amount of business a home enterprise conducts, or the number of hours of casual labor they can sell. Consumption is often more regular, as savings or borrowing is used to smooth out lumpy incomes. Thus, consumption is a close reflection of their average welfare or living standards.",
+        "score": 0.8401985595336627,
+        "metadata": {
+          "chunk_id": "d6a9a0f45dfb72156f385c04f76e2718",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 30,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 20
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "8d5c9070a5ba37c014d9f75a50e25608",
+        "text": "Across the distribution, welfare as measured by household consumption per capita declined more in urban households than rural households. Nationally, average consumption growth was negative, with larger declines at the top rather than at the bottom of the distribution. Changes in poverty were more pronounced at the UMIC than the LMIC poverty line, also reflecting that negative impacts were felt more along the middle and higher ends of the distribution (Figure 7).",
+        "score": 0.7903867228846367,
+        "metadata": {
+          "chunk_id": "8d5c9070a5ba37c014d9f75a50e25608",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 23,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 13
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "9088c43c19e50932459c5e866ed23ed2",
+        "text": "Access to amenities and housing features impact the quality of daily life. Investment in human capital and levels in younger generations are strongly associated with economic outcomes in later years. The wealth index is a proxy for household purchasing power and income. Environmental risks28, such as exposure to floods, can also erode household welfare through damage to household assets or limiting transportation and access to jobs.",
+        "score": 0.7558473947817699,
+        "metadata": {
+          "chunk_id": "9088c43c19e50932459c5e866ed23ed2",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 73,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 63
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d07",
+    "split": "dev",
+    "question": "What was the primary source of household growth discussed in the income dynamics section?",
+    "expected_answer": "Rising labor income, primarily wages.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 32,
+    "evidence_quote": "Rising labor incomes (primarily wages) have been the primary sources of growth for households",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "4738fc37acbc5b419347a2b8757ee9e0",
+        "text": "t per annum throughout multiple periods and for most households. Shared growth helped reduce poverty dramatically and also in a progressive manner. Rising labor incomes (primarily wages) have been the primary sources of growth for households (Figure 18, and see Figure 39 in Annex A for trends by region). From 2010 to 2022, annual household net income increased by nearly VND50 million (2017 VND prices), driven by rising wages. 13 Dynamics are based on cross-sectional data, panel data is not avail",
+        "score": 0.8301888765203267,
+        "metadata": {
+          "chunk_id": "4738fc37acbc5b419347a2b8757ee9e0",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 32,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 22
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "6a96a533331398861f31edcdcde50a48",
+        "text": "PART 1. POVERTY & EQUITY UPDATE 22 Viet Nam bi-annual poverty & equity update - June 2024 2. Sources and dynamics behind changes in poverty Understanding changes to household income is a key to understanding dynamics in poverty 13. Similar to consumption, household income had its lowest growth during 2020-22 compared to any other period over the last decade (Figure 17). For much of the last decade, household incomes were growing at above 6 percent per annum throughout multiple periods and for mo",
+        "score": 0.7567592130140492,
+        "metadata": {
+          "chunk_id": "6a96a533331398861f31edcdcde50a48",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 32,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 22
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "bf561bea066c86d4666d6c860bf42595",
+        "text": "2. sources and dynamics behind changes in Poverty Towards more inclusive cities 31 Figure 32. Trends in net annual household income, by region Figure 33. Increase in household income from 2010 to 2022, by region Figure 32 Figure 33 0 10 20 30 40 50 60 70 80 90 Change in annual household income (2017 VND) Central Highlands Mekong Delta Midlands and Northern Mtns Northern and Coastal Central Red River Delta Southeast National 0 50 100 150 200 250 2010 2012 2014 2016 2018 2020 2022 Annual household",
+        "score": 0.743852494505071,
+        "metadata": {
+          "chunk_id": "bf561bea066c86d4666d6c860bf42595",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 41,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 31
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d07",
+    "split": "dev",
+    "question": "What was the primary source of household growth discussed in the income dynamics section?",
+    "expected_answer": "Rising labor income, primarily wages.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 32,
+    "evidence_quote": "Rising labor incomes (primarily wages) have been the primary sources of growth for households",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "03368f415505cd56e00b5ad9b51a0ba5",
+        "text": "For much of the last decade, household incomes were growing at above 6 percent per annum throughout multiple periods and for most households. Shared growth helped reduce poverty dramatically and also in a progressive manner. Rising labor incomes (primarily wages) have been the primary sources of growth for households (Figure 18, and see Figure 39 in Annex A for trends by region).",
+        "score": 0.8286704047496538,
+        "metadata": {
+          "chunk_id": "03368f415505cd56e00b5ad9b51a0ba5",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 32,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 22
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "5c74b6fc873c84d08bdcc4e00b29f994",
+        "text": "From 2010 to 2022, annual household net income increased by nearly VND50 million (2017 VND prices), driven by rising wages. 13 Dynamics are based on cross-sectional data, panel data is not available after 2018. Figure 17. Growth incidence curves, total household income Figure 17 0 2 4 6 8 10 12Annualized growth (%) 2012-14 2014-16 2016-18 2018-20 2020-22 2010-22 Note: Household income per capita in 2017 PPP terms. Source: WB staff calculations using VHLSS.",
+        "score": 0.7522801139496333,
+        "metadata": {
+          "chunk_id": "5c74b6fc873c84d08bdcc4e00b29f994",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 32,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 22
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "4f6f203e8189c8a2cf4ce531ac4b359f",
+        "text": "2. sources and dynamics behind changes in Poverty Towards more inclusive cities 31 Figure 32. Trends in net annual household income, by region Figure 33.",
+        "score": 0.7461348236256611,
+        "metadata": {
+          "chunk_id": "4f6f203e8189c8a2cf4ce531ac4b359f",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 41,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 31
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d07",
+    "split": "dev",
+    "question": "What was the primary source of household growth discussed in the income dynamics section?",
+    "expected_answer": "Rising labor income, primarily wages.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 32,
+    "evidence_quote": "Rising labor incomes (primarily wages) have been the primary sources of growth for households",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "03368f415505cd56e00b5ad9b51a0ba5",
+        "text": "For much of the last decade, household incomes were growing at above 6 percent per annum throughout multiple periods and for most households. Shared growth helped reduce poverty dramatically and also in a progressive manner. Rising labor incomes (primarily wages) have been the primary sources of growth for households (Figure 18, and see Figure 39 in Annex A for trends by region).",
+        "score": 0.8286704047496538,
+        "metadata": {
+          "chunk_id": "03368f415505cd56e00b5ad9b51a0ba5",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 32,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 22
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "5c74b6fc873c84d08bdcc4e00b29f994",
+        "text": "From 2010 to 2022, annual household net income increased by nearly VND50 million (2017 VND prices), driven by rising wages. 13 Dynamics are based on cross-sectional data, panel data is not available after 2018. Figure 17. Growth incidence curves, total household income Figure 17 0 2 4 6 8 10 12Annualized growth (%) 2012-14 2014-16 2016-18 2018-20 2020-22 2010-22 Note: Household income per capita in 2017 PPP terms. Source: WB staff calculations using VHLSS.",
+        "score": 0.7522801139496333,
+        "metadata": {
+          "chunk_id": "5c74b6fc873c84d08bdcc4e00b29f994",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 32,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 22
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "4f6f203e8189c8a2cf4ce531ac4b359f",
+        "text": "2. sources and dynamics behind changes in Poverty Towards more inclusive cities 31 Figure 32. Trends in net annual household income, by region Figure 33.",
+        "score": 0.7461348236256611,
+        "metadata": {
+          "chunk_id": "4f6f203e8189c8a2cf4ce531ac4b359f",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 41,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 31
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d08",
+    "split": "dev",
+    "question": "Approximately what share of household income did the three sources of labor income account for in 2022?",
+    "expected_answer": "About 90 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 34,
+    "evidence_quote": "In 2022, three sources of labor income accounted for about 90 percent of household income across the entire distribution of households (see Box 1.B).",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "dbaa62b4980a111965cd6391f097dcfa",
+        "text": "PART 1. POVERTY & EQUITY UPDATE 24 Viet Nam bi-annual poverty & equity update - June 2024 In 2022, labor incomes experienced small declines in either the intensive or extensive margins In 2022, three sources of labor income accounted for about 90 percent of household income across the entire distribution of households (see Box 1.B). T otal labor income is the sum from three sources: 1) wage incomes 15, 2) net family farm production income, and 3) net non-farm family business incomes. Only 4.5 pe",
+        "score": 0.8185963611867867,
+        "metadata": {
+          "chunk_id": "dbaa62b4980a111965cd6391f097dcfa",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 34,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 24
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "cbd047d05e1cac6beea5a753420efad3",
+        "text": "incomes have declined over a four-year monitoring period (2018-22). The share of households with non-diversified labor incomes is increasing. In 2010, 39.2 percent of households had non-diversified labor incomes, meaning they received labor income from wages, farm or non-farm sources. In 2022, this share rose to 47.4 percent of households (Figure 35). Households with the lowest total incomes are those who either do not have any labor income sources, or only labor income from family farming (Fig",
+        "score": 0.7825988529898731,
+        "metadata": {
+          "chunk_id": "cbd047d05e1cac6beea5a753420efad3",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 40,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 30
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "28d303f6845728a7ee06be1f20354bef",
+        "text": "(intensive margins), but there were also fewer households reporting income from these sources (extensive margins). Since the start of the data series in 2010, 2022 was the first year where there was a small decline in the share of households that reported receiving wage income. Regions in the south, the Mekong Delta and Southeast, saw the lowest growth in wages from 2020 to 2022 (see Figure 42 in Annex A for regional wage decomposition). Incomes from non- farm business continued to grow, but th",
+        "score": 0.7628051024723955,
+        "metadata": {
+          "chunk_id": "28d303f6845728a7ee06be1f20354bef",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 34,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 24
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d08",
+    "split": "dev",
+    "question": "Approximately what share of household income did the three sources of labor income account for in 2022?",
+    "expected_answer": "About 90 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 34,
+    "evidence_quote": "In 2022, three sources of labor income accounted for about 90 percent of household income across the entire distribution of households (see Box 1.B).",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "a32860dc0ba1b81c297be7343fd2300a",
+        "text": "PART 1. POVERTY & EQUITY UPDATE 24 Viet Nam bi-annual poverty & equity update - June 2024 In 2022, labor incomes experienced small declines in either the intensive or extensive margins In 2022, three sources of labor income accounted for about 90 percent of household income across the entire distribution of households (see Box 1.B). T otal labor income is the sum from three sources: 1) wage incomes 15, 2) net family farm production income, and 3) net non-farm family business incomes.",
+        "score": 0.8208886490373665,
+        "metadata": {
+          "chunk_id": "a32860dc0ba1b81c297be7343fd2300a",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 34,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 24
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "47fb9384c14c01eced53ccaee8b18453",
+        "text": "Distribution of households, by labor income diversification Figure 34 Figure 35 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 2010 2012 2014 2016 2018 2020 2022 Share of households (%) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-farm W age and farm W age, farm, and non-farm 0 50 100 150 200 250 300 2010 2012 2014 2016 2018 2020 2022 Annual net household income (millions VND) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-fa",
+        "score": 0.7815068047257994,
+        "metadata": {
+          "chunk_id": "47fb9384c14c01eced53ccaee8b18453",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 41,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 31
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "a36aa596d5a3a27390494471b431c517",
+        "text": "Over time, more households receive labor incomes only in the form of wage income Figure 23 Figure 24 0 1 2 3 4 5 6 7 8 2010 2012 2014 2016 2018 2020 2022 Number of households (millions) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-farm W age and farm W age, farm, and non-farm 0 10 20 30 40 50 60 70 80 90 100 No labor incomeNon-farm only Farm onlyFarm andnon-farmW age onlyW age and non-farm W age and farm W age, farm,and non-farm T otal Share of households (%",
+        "score": 0.7809575114891184,
+        "metadata": {
+          "chunk_id": "a36aa596d5a3a27390494471b431c517",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 36,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 26
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d08",
+    "split": "dev",
+    "question": "Approximately what share of household income did the three sources of labor income account for in 2022?",
+    "expected_answer": "About 90 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 34,
+    "evidence_quote": "In 2022, three sources of labor income accounted for about 90 percent of household income across the entire distribution of households (see Box 1.B).",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "a32860dc0ba1b81c297be7343fd2300a",
+        "text": "PART 1. POVERTY & EQUITY UPDATE 24 Viet Nam bi-annual poverty & equity update - June 2024 In 2022, labor incomes experienced small declines in either the intensive or extensive margins In 2022, three sources of labor income accounted for about 90 percent of household income across the entire distribution of households (see Box 1.B). T otal labor income is the sum from three sources: 1) wage incomes 15, 2) net family farm production income, and 3) net non-farm family business incomes.",
+        "score": 0.8208886490373665,
+        "metadata": {
+          "chunk_id": "a32860dc0ba1b81c297be7343fd2300a",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 34,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 24
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "47fb9384c14c01eced53ccaee8b18453",
+        "text": "Distribution of households, by labor income diversification Figure 34 Figure 35 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 2010 2012 2014 2016 2018 2020 2022 Share of households (%) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-farm W age and farm W age, farm, and non-farm 0 50 100 150 200 250 300 2010 2012 2014 2016 2018 2020 2022 Annual net household income (millions VND) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-fa",
+        "score": 0.7815068047257994,
+        "metadata": {
+          "chunk_id": "47fb9384c14c01eced53ccaee8b18453",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 41,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 31
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "a36aa596d5a3a27390494471b431c517",
+        "text": "Over time, more households receive labor incomes only in the form of wage income Figure 23 Figure 24 0 1 2 3 4 5 6 7 8 2010 2012 2014 2016 2018 2020 2022 Number of households (millions) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-farm W age and farm W age, farm, and non-farm 0 10 20 30 40 50 60 70 80 90 100 No labor incomeNon-farm only Farm onlyFarm andnon-farmW age onlyW age and non-farm W age and farm W age, farm,and non-farm T otal Share of households (%",
+        "score": 0.7809575114891184,
+        "metadata": {
+          "chunk_id": "a36aa596d5a3a27390494471b431c517",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 36,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 26
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d09",
+    "split": "dev",
+    "question": "How did the share of households reporting farming as an income source change nationally from 2010 to 2022?",
+    "expected_answer": "It fell from 66 percent in 2010 to 46 percent in 2022.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 36,
+    "evidence_quote": "Nationally, 66 percent of households reported farming as an income source in 2010, declining to 46 percent by 2022.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "5b5015463cb39f90e49dbb6e61fd53d0",
+        "text": "from non- farm business continued to grow, but this income source is more common among wealthier households and has a smaller impact on poverty reduction. The share of households earning farm income fell across all regions, continuing a long trend of exits from agriculture. Net farm incomes among remaining farming households also declined slightly. Figure 19. 2020-22 UMIC ($6.85/day 2017 PPP) poverty decomposition, by income sources Note: Shapley decomposition by components of welfare. Source:",
+        "score": 0.7962069566615331,
+        "metadata": {
+          "chunk_id": "5b5015463cb39f90e49dbb6e61fd53d0",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 34,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 24
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "38913eabcea7a699bb9280aec7d65ca3",
+        "text": "ces, or only labor income from family farming (Figure 34). The share of households receiving incomes in only farming is declining (16.2 percent in 2010 to 10.6 percent in 2022), but due to an aging population the share of households without any labor income sources is also increasing (2.8 percent in 2010 to 6.1 percent in 2022). Box 1.B. Household income dynamics (contd)",
+        "score": 0.7927273494972661,
+        "metadata": {
+          "chunk_id": "38913eabcea7a699bb9280aec7d65ca3",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 40,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 30
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "cb59f03cc3bb31eb2ca9353a7012734c",
+        "text": "change in real household income is lowest in the southern regions (Figure 33). Household income increased by VND24 million from 2010 to 2022 in the Mekong Delta, and by VND78.8 million in the Red River Delta. Some trends in household income categories are broadly consistent across regions, while others are region specific (see Figure 39 in Annex A). Nationally, across all regions, households are exiting farming as an income source. The share of households that report any income from farming is",
+        "score": 0.7892718055624344,
+        "metadata": {
+          "chunk_id": "cb59f03cc3bb31eb2ca9353a7012734c",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 40,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 30
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d09",
+    "split": "dev",
+    "question": "How did the share of households reporting farming as an income source change nationally from 2010 to 2022?",
+    "expected_answer": "It fell from 66 percent in 2010 to 46 percent in 2022.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 36,
+    "evidence_quote": "Nationally, 66 percent of households reported farming as an income source in 2010, declining to 46 percent by 2022.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "d526d9bd6ad0922b0f9fc5173fb6993a",
+        "text": "The share of households receiving incomes in only farming is declining (16.2 percent in 2010 to 10.6 percent in 2022), but due to an aging population the share of households without any labor income sources is also increasing (2.8 percent in 2010 to 6.1 percent in 2022). Box 1.B. Household income dynamics (contd)",
+        "score": 0.8229270039497735,
+        "metadata": {
+          "chunk_id": "d526d9bd6ad0922b0f9fc5173fb6993a",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 40,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 30
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "82946abda73b73ca071c253d0a1f9a77",
+        "text": "In wage and non-farm income categories, average incomes among recipients still increased (intensive margins), but there were also fewer households reporting income from these sources (extensive margins). Since the start of the data series in 2010, 2022 was the first year where there was a small decline in the share of households that reported receiving wage income.",
+        "score": 0.8062653526266645,
+        "metadata": {
+          "chunk_id": "82946abda73b73ca071c253d0a1f9a77",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 34,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 24
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "47fb9384c14c01eced53ccaee8b18453",
+        "text": "Distribution of households, by labor income diversification Figure 34 Figure 35 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 2010 2012 2014 2016 2018 2020 2022 Share of households (%) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-farm W age and farm W age, farm, and non-farm 0 50 100 150 200 250 300 2010 2012 2014 2016 2018 2020 2022 Annual net household income (millions VND) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-fa",
+        "score": 0.7909061489404078,
+        "metadata": {
+          "chunk_id": "47fb9384c14c01eced53ccaee8b18453",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 41,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 31
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d09",
+    "split": "dev",
+    "question": "How did the share of households reporting farming as an income source change nationally from 2010 to 2022?",
+    "expected_answer": "It fell from 66 percent in 2010 to 46 percent in 2022.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 36,
+    "evidence_quote": "Nationally, 66 percent of households reported farming as an income source in 2010, declining to 46 percent by 2022.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "d526d9bd6ad0922b0f9fc5173fb6993a",
+        "text": "The share of households receiving incomes in only farming is declining (16.2 percent in 2010 to 10.6 percent in 2022), but due to an aging population the share of households without any labor income sources is also increasing (2.8 percent in 2010 to 6.1 percent in 2022). Box 1.B. Household income dynamics (contd)",
+        "score": 0.8229270039497735,
+        "metadata": {
+          "chunk_id": "d526d9bd6ad0922b0f9fc5173fb6993a",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 40,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 30
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "82946abda73b73ca071c253d0a1f9a77",
+        "text": "In wage and non-farm income categories, average incomes among recipients still increased (intensive margins), but there were also fewer households reporting income from these sources (extensive margins). Since the start of the data series in 2010, 2022 was the first year where there was a small decline in the share of households that reported receiving wage income.",
+        "score": 0.8062653526266645,
+        "metadata": {
+          "chunk_id": "82946abda73b73ca071c253d0a1f9a77",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 34,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 24
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "47fb9384c14c01eced53ccaee8b18453",
+        "text": "Distribution of households, by labor income diversification Figure 34 Figure 35 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 2010 2012 2014 2016 2018 2020 2022 Share of households (%) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-farm W age and farm W age, farm, and non-farm 0 50 100 150 200 250 300 2010 2012 2014 2016 2018 2020 2022 Annual net household income (millions VND) No labor income Non-farm only Farm only Farm and non-farm W age only W age and non-fa",
+        "score": 0.7909061489404078,
+        "metadata": {
+          "chunk_id": "47fb9384c14c01eced53ccaee8b18453",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 41,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 31
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d10",
+    "split": "dev",
+    "question": "For the 2000–09 birth cohort in 2022, how did employment shares compare between the Midlands and Northern Mountains and the Red River Delta?",
+    "expected_answer": "Almost 40 percent in the Midlands and Northern Mountains versus 17.4 percent in the Red River Delta.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 39,
+    "evidence_quote": "employment shares in 2022 vary from almost 40 percent in the poorer Midlands and Northern Mountains region, to only 17.4 percent in the Red River Delta where Hanoi is located.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "12ba766401ba74e6989918b9def73abd",
+        "text": "force sooner due to lower education completion, but exit later due to lack of pensions and the need for continuous income. For example, among the younger cohort born between 2000-09, employment shares in 2022 vary from almost 40 percent in the poorer Midlands and Northern Mountains region, to only 17.4 percent in the Red River Delta where Hanoi is located. Among the older cohort born between 1950-59, 71 percent was still working in the Midlands and Northern Mountains, compared to 30 percent in t",
+        "score": 0.7877182935318646,
+        "metadata": {
+          "chunk_id": "12ba766401ba74e6989918b9def73abd",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 39,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 29
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "eff6200380b6777a8ed32666c8080eed",
+        "text": "mong wage-earning households, declines in employment in services were most common in 2022 (Figure 28). From 2020 to 2022, the share of households with wage incomes declined in most regions except for the Northern and Central Coast and the Midlands Northern Mountains. The largest declines in wage employment were unsurprisingly in regions with the largest cities, the Red River Delta (Hanoi) and Southeast (HCMC). While drops in employment rates were small on average, there were additional impacts f",
+        "score": 0.7487882858833446,
+        "metadata": {
+          "chunk_id": "eff6200380b6777a8ed32666c8080eed",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 38,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 28
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "5f7bb59caba6be54b342d746e392e0e1",
+        "text": "nd Northern Mountains, compared to 30 percent in the Southeast, home to HCMC. Figure 28. Employment trends in wage-earning households, by occupation Figure 28 Figure 29 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 2010 2012 2014 2016 2018 2020 20222010 2012 2014 2016 2018 2020 2022 Share of cohort that is employed (%) 1950-59 1960-69 1970-79 1980-89 1990-99 2000-09 0 1 2 3 4 5 6 7 8 9 10Employed (millions) 11 12 13 14 15 16 17 18 Elementary Occupations Craft & Related Trades Workers Service & Sal",
+        "score": 0.7366609386108528,
+        "metadata": {
+          "chunk_id": "5f7bb59caba6be54b342d746e392e0e1",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 39,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 29
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d10",
+    "split": "dev",
+    "question": "For the 2000–09 birth cohort in 2022, how did employment shares compare between the Midlands and Northern Mountains and the Red River Delta?",
+    "expected_answer": "Almost 40 percent in the Midlands and Northern Mountains versus 17.4 percent in the Red River Delta.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 39,
+    "evidence_quote": "employment shares in 2022 vary from almost 40 percent in the poorer Midlands and Northern Mountains region, to only 17.4 percent in the Red River Delta where Hanoi is located.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "d50331bad3d8be736528819a33dc1bdf",
+        "text": "In poorer regions, individuals enter the labor force sooner due to lower education completion, but exit later due to lack of pensions and the need for continuous income. For example, among the younger cohort born between 2000-09, employment shares in 2022 vary from almost 40 percent in the poorer Midlands and Northern Mountains region, to only 17.4 percent in the Red River Delta where Hanoi is located.",
+        "score": 0.7661514884327918,
+        "metadata": {
+          "chunk_id": "d50331bad3d8be736528819a33dc1bdf",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 39,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 29
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "1ba896fa54503c5aeb4f473eb367430b",
+        "text": "From 2020 to 2022, the share of households with wage incomes declined in most regions except for the Northern and Central Coast and the Midlands Northern Mountains. The largest declines in wage employment were unsurprisingly in regions with the largest cities, the Red River Delta (Hanoi) and Southeast (HCMC). While drops in employment rates were small on average, there were additional impacts from occupational downgrading during the pandemic.",
+        "score": 0.7377562911703232,
+        "metadata": {
+          "chunk_id": "1ba896fa54503c5aeb4f473eb367430b",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 38,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 28
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "5eedf3e66fd0567b2ba59b860b419cb7",
+        "text": "Much of the success can be related to stronger diversification out of agriculture compared to the latter, with the former seeing the largest increase in the share of households receiving income from wages, which are generally higher than farm income. In 2010, 56 percent of households in the Midlands and Northern Mountains region had income from wages, increasing to 67 percent in 2022.",
+        "score": 0.7232674504129639,
+        "metadata": {
+          "chunk_id": "5eedf3e66fd0567b2ba59b860b419cb7",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 37,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 27
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d10",
+    "split": "dev",
+    "question": "For the 2000–09 birth cohort in 2022, how did employment shares compare between the Midlands and Northern Mountains and the Red River Delta?",
+    "expected_answer": "Almost 40 percent in the Midlands and Northern Mountains versus 17.4 percent in the Red River Delta.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 39,
+    "evidence_quote": "employment shares in 2022 vary from almost 40 percent in the poorer Midlands and Northern Mountains region, to only 17.4 percent in the Red River Delta where Hanoi is located.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "d50331bad3d8be736528819a33dc1bdf",
+        "text": "In poorer regions, individuals enter the labor force sooner due to lower education completion, but exit later due to lack of pensions and the need for continuous income. For example, among the younger cohort born between 2000-09, employment shares in 2022 vary from almost 40 percent in the poorer Midlands and Northern Mountains region, to only 17.4 percent in the Red River Delta where Hanoi is located.",
+        "score": 0.7661514884327918,
+        "metadata": {
+          "chunk_id": "d50331bad3d8be736528819a33dc1bdf",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 39,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 29
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "1ba896fa54503c5aeb4f473eb367430b",
+        "text": "From 2020 to 2022, the share of households with wage incomes declined in most regions except for the Northern and Central Coast and the Midlands Northern Mountains. The largest declines in wage employment were unsurprisingly in regions with the largest cities, the Red River Delta (Hanoi) and Southeast (HCMC). While drops in employment rates were small on average, there were additional impacts from occupational downgrading during the pandemic.",
+        "score": 0.7377562911703232,
+        "metadata": {
+          "chunk_id": "1ba896fa54503c5aeb4f473eb367430b",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 38,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 28
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "5eedf3e66fd0567b2ba59b860b419cb7",
+        "text": "Much of the success can be related to stronger diversification out of agriculture compared to the latter, with the former seeing the largest increase in the share of households receiving income from wages, which are generally higher than farm income. In 2010, 56 percent of households in the Midlands and Northern Mountains region had income from wages, increasing to 67 percent in 2022.",
+        "score": 0.7232674504129639,
+        "metadata": {
+          "chunk_id": "5eedf3e66fd0567b2ba59b860b419cb7",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 37,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 27
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d11",
+    "split": "dev",
+    "question": "By 2023, were labor incomes back at the levels expected without COVID-19?",
+    "expected_answer": "No. They were recovering toward pre-COVID levels but remained below the no-COVID expected trajectory.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 42,
+    "evidence_quote": "Labor income indicators in 2023 are recovering to pre- COVID levels, but are still lower than expected incomes without COVID.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "a4651ad85c64376e152a3bbb9d953e7d",
+        "text": "es are improving Labor income indicators in 2023 are recovering to pre- COVID levels, but are still lower than expected incomes without COVID. During the pre-COVID 2015-19 period, labor incomes were growing by nearly 10 percent per year (Figure 36). After a short period of decline in 2020 and 2021, labor incomes are once again growing, but are at lower levels than if pre-COVID income growth trajectories were sustained. In 2021, workers in the services and manufacturing sectors were earning more",
+        "score": 0.8865421051627929,
+        "metadata": {
+          "chunk_id": "a4651ad85c64376e152a3bbb9d953e7d",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 42,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 32
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "6c6327abf829eac5e6a49f4d55f4e7a3",
+        "text": "still lower than expected without COVID (Figure O.3). During the 2015-19 pre- COVID period, labor incomes grew by nearly 10 percent per year. After a short period of declines in 2020 and 2021, labor incomes are once again growing, but are at lower levels than if pre-COVID income growth trajectories were sustained. Even with the ongoing recovery, experiences from the pandemic period are useful to reflect on the importance, timing, and complementarity of promotion and protection policies. The ‘Ne",
+        "score": 0.8560021207633008,
+        "metadata": {
+          "chunk_id": "6c6327abf829eac5e6a49f4d55f4e7a3",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "c749f49bf6dd48f77db793b75aff22eb",
+        "text": "ons and expectations. Post-COVID poverty projections show renewed progress, but poverty rates remain higher compared to outlooks made before the pandemic. Poverty projections made at the initial onset of COVID-19 predicted a stagnation in poverty reduction in 2021, followed by declines in 2022 and onwards. Actual poverty rates in 2022 were higher than earlier predictions. Labor income indicators in 2023 are recovering to pre-COVID levels, but are still lower than expected without COVID (Figure O",
+        "score": 0.8215311651356761,
+        "metadata": {
+          "chunk_id": "c749f49bf6dd48f77db793b75aff22eb",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d11",
+    "split": "dev",
+    "question": "By 2023, were labor incomes back at the levels expected without COVID-19?",
+    "expected_answer": "No. They were recovering toward pre-COVID levels but remained below the no-COVID expected trajectory.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 42,
+    "evidence_quote": "Labor income indicators in 2023 are recovering to pre- COVID levels, but are still lower than expected incomes without COVID.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "b681ddd62174a19833643971bc08e911",
+        "text": "With the return of economic growth, income and poverty rates are improving Labor income indicators in 2023 are recovering to pre- COVID levels, but are still lower than expected incomes without COVID. During the pre-COVID 2015-19 period, labor incomes were growing by nearly 10 percent per year (Figure 36). After a short period of decline in 2020 and 2021, labor incomes are once again growing, but are at lower levels than if pre-COVID income growth trajectories were sustained.",
+        "score": 0.8834698923630283,
+        "metadata": {
+          "chunk_id": "b681ddd62174a19833643971bc08e911",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 42,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 32
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "66eddb11823927ef9ba1e2fadaff1c8d",
+        "text": "Labor income indicators in 2023 are recovering to pre-COVID levels, but are still lower than expected without COVID (Figure O.3). During the 2015-19 pre- COVID period, labor incomes grew by nearly 10 percent per year. After a short period of declines in 2020 and 2021, labor incomes are once again growing, but are at lower levels than if pre-COVID income growth trajectories were sustained.",
+        "score": 0.8746250191118885,
+        "metadata": {
+          "chunk_id": "66eddb11823927ef9ba1e2fadaff1c8d",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "5a7aceb82b6a16f41cf5b067492738ab",
+        "text": "In 2021, workers in the services and manufacturing sectors were earning more than VND1 million less per month than if labor income growth had followed a pre-COVID trajectory. In 2023, this gap had narrowed to VND580,000 less per month. Labor incomes in the agricultural sector are higher than projected pre-COVID, but are still much lower than those in the manufacturing or services sectors. A smaller post-COVID labor force is due to both measurement, demographic, and economic factors.",
+        "score": 0.8211873203551477,
+        "metadata": {
+          "chunk_id": "5a7aceb82b6a16f41cf5b067492738ab",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 42,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 32
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d11",
+    "split": "dev",
+    "question": "By 2023, were labor incomes back at the levels expected without COVID-19?",
+    "expected_answer": "No. They were recovering toward pre-COVID levels but remained below the no-COVID expected trajectory.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 42,
+    "evidence_quote": "Labor income indicators in 2023 are recovering to pre- COVID levels, but are still lower than expected incomes without COVID.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "b681ddd62174a19833643971bc08e911",
+        "text": "With the return of economic growth, income and poverty rates are improving Labor income indicators in 2023 are recovering to pre- COVID levels, but are still lower than expected incomes without COVID. During the pre-COVID 2015-19 period, labor incomes were growing by nearly 10 percent per year (Figure 36). After a short period of decline in 2020 and 2021, labor incomes are once again growing, but are at lower levels than if pre-COVID income growth trajectories were sustained.",
+        "score": 0.8834698923630283,
+        "metadata": {
+          "chunk_id": "b681ddd62174a19833643971bc08e911",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 42,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 32
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "66eddb11823927ef9ba1e2fadaff1c8d",
+        "text": "Labor income indicators in 2023 are recovering to pre-COVID levels, but are still lower than expected without COVID (Figure O.3). During the 2015-19 pre- COVID period, labor incomes grew by nearly 10 percent per year. After a short period of declines in 2020 and 2021, labor incomes are once again growing, but are at lower levels than if pre-COVID income growth trajectories were sustained.",
+        "score": 0.8746250191118885,
+        "metadata": {
+          "chunk_id": "66eddb11823927ef9ba1e2fadaff1c8d",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 12,
+          "section": "overview",
+          "printed_page": 2
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "5a7aceb82b6a16f41cf5b067492738ab",
+        "text": "In 2021, workers in the services and manufacturing sectors were earning more than VND1 million less per month than if labor income growth had followed a pre-COVID trajectory. In 2023, this gap had narrowed to VND580,000 less per month. Labor incomes in the agricultural sector are higher than projected pre-COVID, but are still much lower than those in the manufacturing or services sectors. A smaller post-COVID labor force is due to both measurement, demographic, and economic factors.",
+        "score": 0.8211873203551477,
+        "metadata": {
+          "chunk_id": "5a7aceb82b6a16f41cf5b067492738ab",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 42,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 32
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d12",
+    "split": "dev",
+    "question": "In Part 2 of the report, how did Viet Nam's urban population share change from 2010 to 2022?",
+    "expected_answer": "It rose from 30 percent to almost 40 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 56,
+    "evidence_quote": "From 2010 to 2022, the urban share of the population in Viet Nam increased from 30 to almost 40 percent.",
+    "filter_requested": {
+      "section": "part_2_urban_inclusion"
+    },
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "846bf1976f7cc4f4cfac57a74bf412a1",
+        "text": "in urban areas has increased in recent years. From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53). Urban poverty rates also declined throughout the decade, driven by high population and wage growth. Figure 53. Share of population in urban areas is increasing, as is the urban poorFigure 53 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 2010 2012 2014 2016 2018 2020 2022 Urban share (%) Share of LMIC poo",
+        "score": 0.8345039293406739,
+        "metadata": {
+          "chunk_id": "846bf1976f7cc4f4cfac57a74bf412a1",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 55
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "7d8900ed2bffff5469cb4d2aa55f3b61",
+        "text": "ure. The concept of the “urbanization of poverty” has regained significance post-COVID. From 2010 to 2022, the urban population in Viet Nam increased from 30 to almost 40 percent (Figure O.4). At the same time, the share of the poor (based on W orld Bank poverty lines) located in urban areas also increased. As discussed in Part 1, the relatively Figure O.3. Poverty trends and projections Note: Actual poverty rates are bi-annual, and poverty projections are annual. Projections made using March an",
+        "score": 0.8110312970981547,
+        "metadata": {
+          "chunk_id": "7d8900ed2bffff5469cb4d2aa55f3b61",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 13,
+          "section": "overview",
+          "printed_page": 3
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "ae8d0b55ba0272c896644ac5e0cca288",
+        "text": "Urbanization at a Crossroads, and W orld Bank 2011 Viet Nam Urbanization Review. Viet Nam is rapidly urbanizing, and using different measurement techniques, the share of the population living in an urban setting is even higher. In 2022, the urban share of the population was about 39 percent, but some research has shown that the urbanized population could be much larger. With the availability of satellite imagery, an urban area can be more consistently classified by its greenery, built-up area, o",
+        "score": 0.7837742478106136,
+        "metadata": {
+          "chunk_id": "ae8d0b55ba0272c896644ac5e0cca288",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 14,
+          "section": "overview",
+          "printed_page": 4
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d12",
+    "split": "dev",
+    "question": "In Part 2 of the report, how did Viet Nam's urban population share change from 2010 to 2022?",
+    "expected_answer": "It rose from 30 percent to almost 40 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 56,
+    "evidence_quote": "From 2010 to 2022, the urban share of the population in Viet Nam increased from 30 to almost 40 percent.",
+    "filter_requested": {
+      "section": "part_2_urban_inclusion"
+    },
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "3b0dc21293c4fffe3518af94a68577ef",
+        "text": "From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53). Urban poverty rates also declined throughout the decade, driven by high population and wage growth. Figure 53.",
+        "score": 0.8505487087181648,
+        "metadata": {
+          "chunk_id": "3b0dc21293c4fffe3518af94a68577ef",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 55
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "53062d7772e1863362c9a70e755a2a50",
+        "text": "Share of urban population in Viet Nam 2022, various classifications -10 -8 -6 -4 -2 0 2 4 6 2010-12 2012-14 2014-16 2016-18 2018-20 2020-22 Poverty reduction and declining inequality ﻿Poverty reduction and small increase in inequality COVID-19 period Pecentage point change in poverty rate Growth Distribution Figure O1 Figure O2 Figure O4 Figure O6 Figure O5 -2 -1 0 1 2 3 4 5 6 Annualized growth (%) 2020-22 1-National 2-Urban 3-Rural 0% 5% 10% 15% 20% 25% 30% 35% 40% 45%Urban share (%) Share of L",
+        "score": 0.8322808461367963,
+        "metadata": {
+          "chunk_id": "53062d7772e1863362c9a70e755a2a50",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 14,
+          "section": "overview",
+          "printed_page": 4
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "0f5bef2b5b7e12e1cfcadab3fc3a2f6d",
+        "text": "The concept of the “urbanization of poverty” has regained significance post-COVID. From 2010 to 2022, the urban population in Viet Nam increased from 30 to almost 40 percent (Figure O.4). At the same time, the share of the poor (based on W orld Bank poverty lines) located in urban areas also increased. As discussed in Part 1, the relatively Figure O.3. Poverty trends and projections Note: Actual poverty rates are bi-annual, and poverty projections are annual.",
+        "score": 0.8103832416516809,
+        "metadata": {
+          "chunk_id": "0f5bef2b5b7e12e1cfcadab3fc3a2f6d",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 13,
+          "section": "overview",
+          "printed_page": 3
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d12",
+    "split": "dev",
+    "question": "In Part 2 of the report, how did Viet Nam's urban population share change from 2010 to 2022?",
+    "expected_answer": "It rose from 30 percent to almost 40 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 56,
+    "evidence_quote": "From 2010 to 2022, the urban share of the population in Viet Nam increased from 30 to almost 40 percent.",
+    "filter_requested": {
+      "section": "part_2_urban_inclusion"
+    },
+    "filter_applied": {
+      "section": "part_2_urban_inclusion"
+    },
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "3b0dc21293c4fffe3518af94a68577ef",
+        "text": "From 2010 to 2022, the share of the population in Viet Nam located in administrative urban areas increased from 30 percent to almost 40 percent (Figure 53). Urban poverty rates also declined throughout the decade, driven by high population and wage growth. Figure 53.",
+        "score": 0.8505487087181648,
+        "metadata": {
+          "chunk_id": "3b0dc21293c4fffe3518af94a68577ef",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 55
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "f67dfa8c9dd9bfa510740fcc1299af7b",
+        "text": "The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques. In official household and population surveys, the source of urban population and poverty statistics, urban areas are typically determined by commune-level administrative classifications.",
+        "score": 0.8010075433140644,
+        "metadata": {
+          "chunk_id": "f67dfa8c9dd9bfa510740fcc1299af7b",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 58,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 48
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "eca1f21e29f2fc43474e321856db49d2",
+        "text": "For its level of development and population density, the urbanization rate of Viet Nam is lower than expected, but the share of the population in an urbanized setting is higher when based on measurements using satellite imagery. From a social policy perspective, this means an increased focus is needed on living conditions and welfare in urban areas, especially since they are also centers of growth for the population and economic production.",
+        "score": 0.7830636002123335,
+        "metadata": {
+          "chunk_id": "eca1f21e29f2fc43474e321856db49d2",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 55,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 45
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d13",
+    "split": "dev",
+    "question": "Why might the official 2022 urban population share understate how many people lived in urbanized settings?",
+    "expected_answer": "The official share was about 39 percent, while alternative measurement techniques can classify a much larger population as urbanized.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 58,
+    "evidence_quote": "The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "ae8d0b55ba0272c896644ac5e0cca288",
+        "text": "Urbanization at a Crossroads, and W orld Bank 2011 Viet Nam Urbanization Review. Viet Nam is rapidly urbanizing, and using different measurement techniques, the share of the population living in an urban setting is even higher. In 2022, the urban share of the population was about 39 percent, but some research has shown that the urbanized population could be much larger. With the availability of satellite imagery, an urban area can be more consistently classified by its greenery, built-up area, o",
+        "score": 0.7577928081213041,
+        "metadata": {
+          "chunk_id": "ae8d0b55ba0272c896644ac5e0cca288",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 14,
+          "section": "overview",
+          "printed_page": 4
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "84700b25f5f321d9c1967d6aa179ab1e",
+        "text": "today, by bottom-40 and top-60 24 33 14 29 33 25 12 31 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%Share of households (%) 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%Share of households (%) 38 27 10 26 47 21 12 20 December 2021 - January 2022 April-May, 2022 Less than one month 1 - 3 months 3 - 6 months More than 6 months December 2021 - January 2022 April-May, 2022 Less than one month 1 - 3 months 3 - 6 months More than 6 months Figure 8 Bottom-40 Top-60 Note: Urban samples only. Source: W orld",
+        "score": 0.7544897601892093,
+        "metadata": {
+          "chunk_id": "84700b25f5f321d9c1967d6aa179ab1e",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 24,
+          "section": "part_1_poverty_equity_update",
+          "printed_page": 14
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "bd7c1bdd4f1c0727093de9345e556162",
+        "text": "also found countries with low official urbanization rates compared to DOU or DB measures (Combes et al., 2022). The rate of urbanization is an important consideration for policy direction in a Next Mile context. A large urban population calls for more urban-focused policies. As more people move to cities and the country becomes denser, conditions in urban areas will have a larger role to play in poverty reduction and upwards economic mobility. Sustaining poverty reduction will require effective",
+        "score": 0.7380379357651835,
+        "metadata": {
+          "chunk_id": "bd7c1bdd4f1c0727093de9345e556162",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 58,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 48
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d13",
+    "split": "dev",
+    "question": "Why might the official 2022 urban population share understate how many people lived in urbanized settings?",
+    "expected_answer": "The official share was about 39 percent, while alternative measurement techniques can classify a much larger population as urbanized.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 58,
+    "evidence_quote": "The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "1e8f0edf270c5cf56e1128915a8e3415",
+        "text": "In 2022, the urban share of the population was about 39 percent, but some research has shown that the urbanized population could be much larger. With the availability of satellite imagery, an urban area can be more consistently classified by its greenery, built-up area, or population density features. For example, using the Degree of Urbanization (DOU) methodology, the urban population share was modeled to be as high as 73 percent (Figure O.5).",
+        "score": 0.7956991297902657,
+        "metadata": {
+          "chunk_id": "1e8f0edf270c5cf56e1128915a8e3415",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 14,
+          "section": "overview",
+          "printed_page": 4
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "ef9eb37c5bff880a311216e4ce77577f",
+        "text": "Share of population in urban areas is increasing, as is the urban poorFigure 53 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 2010 2012 2014 2016 2018 2020 2022 Urban share (%) Share of LMIC poor Share of UMIC poor Share of total population Note: Official urban and rural classifications. Source: W orld Bank staff calculations.",
+        "score": 0.7653003335184247,
+        "metadata": {
+          "chunk_id": "ef9eb37c5bff880a311216e4ce77577f",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 55
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "75a1941662040444aff3029140b02999",
+        "text": "Regionally, some local statistical offices collect their own data, for example, HCMC conducts its own surveys of migrants in the municipality. The rate of urbanization is an important consideration for policy direction in a Next Mile context. A large urban population calls for more urban-focused policies, particularly as the extent of population living in urban contexts may be higher than currently measured.",
+        "score": 0.7501563392823476,
+        "metadata": {
+          "chunk_id": "75a1941662040444aff3029140b02999",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 86,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 76
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d13",
+    "split": "dev",
+    "question": "Why might the official 2022 urban population share understate how many people lived in urbanized settings?",
+    "expected_answer": "The official share was about 39 percent, while alternative measurement techniques can classify a much larger population as urbanized.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 58,
+    "evidence_quote": "The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques.",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "1e8f0edf270c5cf56e1128915a8e3415",
+        "text": "In 2022, the urban share of the population was about 39 percent, but some research has shown that the urbanized population could be much larger. With the availability of satellite imagery, an urban area can be more consistently classified by its greenery, built-up area, or population density features. For example, using the Degree of Urbanization (DOU) methodology, the urban population share was modeled to be as high as 73 percent (Figure O.5).",
+        "score": 0.7956991297902657,
+        "metadata": {
+          "chunk_id": "1e8f0edf270c5cf56e1128915a8e3415",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 14,
+          "section": "overview",
+          "printed_page": 4
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "ef9eb37c5bff880a311216e4ce77577f",
+        "text": "Share of population in urban areas is increasing, as is the urban poorFigure 53 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 2010 2012 2014 2016 2018 2020 2022 Urban share (%) Share of LMIC poor Share of UMIC poor Share of total population Note: Official urban and rural classifications. Source: W orld Bank staff calculations.",
+        "score": 0.7653003335184247,
+        "metadata": {
+          "chunk_id": "ef9eb37c5bff880a311216e4ce77577f",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 55
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "75a1941662040444aff3029140b02999",
+        "text": "Regionally, some local statistical offices collect their own data, for example, HCMC conducts its own surveys of migrants in the municipality. The rate of urbanization is an important consideration for policy direction in a Next Mile context. A large urban population calls for more urban-focused policies, particularly as the extent of population living in urban contexts may be higher than currently measured.",
+        "score": 0.7501563392823476,
+        "metadata": {
+          "chunk_id": "75a1941662040444aff3029140b02999",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 86,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 76
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d14",
+    "split": "dev",
+    "question": "In Part 2 of the report, what share of Viet Nam's total population growth during 2014–19 occurred in Ho Chi Minh City?",
+    "expected_answer": "20 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 60,
+    "evidence_quote": "20 percent of total population growth from 2014- 19 was in HCMC alone.",
+    "filter_requested": {
+      "section": "part_2_urban_inclusion"
+    },
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "8a47f602815341c3644ea82dcbcd831d",
+        "text": "owth seen in the latter half of the 2010s (Figure 48). From 2009-14, the total population of Viet Nam grew by 6.6 million people, with 16.7 percent of net growth from just the five municipalities 21 (Figure 49). Figure 48. Population trends across large cities in Viet NamFigure 48 0 1 2 3 4 5 6 7 8 9 Can Tho Danang HCMC Haiphong Hanoi Population (millions) 2009 2014 2019 Source: W orld Bank staff calculation using Population and Housing Census 2009, 2014, and 2019. Figure 49. Distribution of pop",
+        "score": 0.7914297424246804,
+        "metadata": {
+          "chunk_id": "8a47f602815341c3644ea82dcbcd831d",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 59,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 49
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "eee696a45243e164e590f634c36ae6f5",
+        "text": "PART 2. POVERTY AND INCLUSION IN URBAN AREAS AND CITIES 50 Viet Nam bi-annual poverty & equity update - June 2024 In the latter half of the decade from 2014-19, the country’s population grew by 6.2 million people, with 40 percent of population growth witnessed in the five municipalities. Notably, 20 percent of total population growth from 2014- 19 was in HCMC alone. Population changes in the five municipalities can be attributed to various factors with different implications (Figure 50). Changes",
+        "score": 0.7818401482073427,
+        "metadata": {
+          "chunk_id": "eee696a45243e164e590f634c36ae6f5",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 60,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 50
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "4c6a0906718db920dd89758489a805e8",
+        "text": "all declines in population (Figure 60). This is consistent with the shift of the new built-up area in HCMC moving outwards as well. Box 2.C. Ho Chi Minh City is the largest city in Viet Nam, with a gradient of urbanization and characteristics",
+        "score": 0.7770679731556394,
+        "metadata": {
+          "chunk_id": "4c6a0906718db920dd89758489a805e8",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 70,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 60
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d14",
+    "split": "dev",
+    "question": "In Part 2 of the report, what share of Viet Nam's total population growth during 2014–19 occurred in Ho Chi Minh City?",
+    "expected_answer": "20 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 60,
+    "evidence_quote": "20 percent of total population growth from 2014- 19 was in HCMC alone.",
+    "filter_requested": {
+      "section": "part_2_urban_inclusion"
+    },
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "e44a33a366467030be2999ba99d4191a",
+        "text": "PART 2. POVERTY AND INCLUSION IN URBAN AREAS AND CITIES 50 Viet Nam bi-annual poverty & equity update - June 2024 In the latter half of the decade from 2014-19, the country’s population grew by 6.2 million people, with 40 percent of population growth witnessed in the five municipalities. Notably, 20 percent of total population growth from 2014- 19 was in HCMC alone. Population changes in the five municipalities can be attributed to various factors with different implications (Figure 50).",
+        "score": 0.7808986281809578,
+        "metadata": {
+          "chunk_id": "e44a33a366467030be2999ba99d4191a",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 60,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 50
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "946091f833f1ebc403cc16fa908f5939",
+        "text": "From 2009-14, the total population of Viet Nam grew by 6.6 million people, with 16.7 percent of net growth from just the five municipalities 21 (Figure 49). Figure 48. Population trends across large cities in Viet NamFigure 48 0 1 2 3 4 5 6 7 8 9 Can Tho Danang HCMC Haiphong Hanoi Population (millions) 2009 2014 2019 Source: W orld Bank staff calculation using Population and Housing Census 2009, 2014, and 2019. Figure 49.",
+        "score": 0.7770518019234602,
+        "metadata": {
+          "chunk_id": "946091f833f1ebc403cc16fa908f5939",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 59,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 49
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "4d5aa522e2dfe232d1d3493483ebd7a6",
+        "text": "From 2009 to 2019, the peripheral areas featured the most population growth, with central districts even experiencing small declines in population (Figure 60). This is consistent with the shift of the new built-up area in HCMC moving outwards as well. Box 2.C. Ho Chi Minh City is the largest city in Viet Nam, with a gradient of urbanization and characteristics",
+        "score": 0.7736550331931593,
+        "metadata": {
+          "chunk_id": "4d5aa522e2dfe232d1d3493483ebd7a6",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 70,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 60
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d14",
+    "split": "dev",
+    "question": "In Part 2 of the report, what share of Viet Nam's total population growth during 2014–19 occurred in Ho Chi Minh City?",
+    "expected_answer": "20 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 60,
+    "evidence_quote": "20 percent of total population growth from 2014- 19 was in HCMC alone.",
+    "filter_requested": {
+      "section": "part_2_urban_inclusion"
+    },
+    "filter_applied": {
+      "section": "part_2_urban_inclusion"
+    },
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "e44a33a366467030be2999ba99d4191a",
+        "text": "PART 2. POVERTY AND INCLUSION IN URBAN AREAS AND CITIES 50 Viet Nam bi-annual poverty & equity update - June 2024 In the latter half of the decade from 2014-19, the country’s population grew by 6.2 million people, with 40 percent of population growth witnessed in the five municipalities. Notably, 20 percent of total population growth from 2014- 19 was in HCMC alone. Population changes in the five municipalities can be attributed to various factors with different implications (Figure 50).",
+        "score": 0.7808986281809578,
+        "metadata": {
+          "chunk_id": "e44a33a366467030be2999ba99d4191a",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 60,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 50
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "946091f833f1ebc403cc16fa908f5939",
+        "text": "From 2009-14, the total population of Viet Nam grew by 6.6 million people, with 16.7 percent of net growth from just the five municipalities 21 (Figure 49). Figure 48. Population trends across large cities in Viet NamFigure 48 0 1 2 3 4 5 6 7 8 9 Can Tho Danang HCMC Haiphong Hanoi Population (millions) 2009 2014 2019 Source: W orld Bank staff calculation using Population and Housing Census 2009, 2014, and 2019. Figure 49.",
+        "score": 0.7770518019234602,
+        "metadata": {
+          "chunk_id": "946091f833f1ebc403cc16fa908f5939",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 59,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 49
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "4d5aa522e2dfe232d1d3493483ebd7a6",
+        "text": "From 2009 to 2019, the peripheral areas featured the most population growth, with central districts even experiencing small declines in population (Figure 60). This is consistent with the shift of the new built-up area in HCMC moving outwards as well. Box 2.C. Ho Chi Minh City is the largest city in Viet Nam, with a gradient of urbanization and characteristics",
+        "score": 0.7736550331931593,
+        "metadata": {
+          "chunk_id": "4d5aa522e2dfe232d1d3493483ebd7a6",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 70,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 60
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "A",
+    "id": "d15",
+    "split": "dev",
+    "question": "According to a 2022 study cited in the report, what proportion of Viet Nam's population lived in flood zones?",
+    "expected_answer": "46 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 65,
+    "evidence_quote": "A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022).",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "67a05dead09cb916d61b38bec862c9aa",
+        "text": "ate flood management infrastructure. A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022). Viet Nam’s largest city, Ho Chi Minh City, is one of the top 10 cities in the world with the largest population most likely to be affected by climate change. The concept of the “urbanization of poverty” has regained significance post-pandemic. Ravalli",
+        "score": 0.775985851174839,
+        "metadata": {
+          "chunk_id": "67a05dead09cb916d61b38bec862c9aa",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 55
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "5a40f0d094ed48db093e54c4535f5040",
+        "text": "istrict would be exposed to floods at depths of 50cm or greater, which would affect 91 percent of Quan 2’s population. Climate change is expected to exacerbate existing risks, making larger floods more likely. Under a worst-case climate change scenario, sea levels are set to rise by 30cm and 70cm by the years 2050 and 2100, respectively. This would result in the flooding of land currently inhabited by 20 million people in Viet Nam, equivalent to a quarter of the population (Rentschler et al., 20",
+        "score": 0.730163362085452,
+        "metadata": {
+          "chunk_id": "5a40f0d094ed48db093e54c4535f5040",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 80,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 70
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "960c7b2f249729b2a1c88def8e8283ea",
+        "text": "areas can be classified using different techniques to consider population density, green space, and built-up area (see Box 2.B). There are also strong correlations between the degree of urbanization and poverty rates. The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques. In official household and population surveys, the source of urban population",
+        "score": 0.7218471234077477,
+        "metadata": {
+          "chunk_id": "960c7b2f249729b2a1c88def8e8283ea",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 58,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 48
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "B",
+    "id": "d15",
+    "split": "dev",
+    "question": "According to a 2022 study cited in the report, what proportion of Viet Nam's population lived in flood zones?",
+    "expected_answer": "46 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 65,
+    "evidence_quote": "A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022).",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "cef8f1e873179f178eca1818a72df900",
+        "text": "A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022). Viet Nam’s largest city, Ho Chi Minh City, is one of the top 10 cities in the world with the largest population most likely to be affected by climate change. The concept of the “urbanization of poverty” has regained significance post-pandemic. Ravallion et al.",
+        "score": 0.778537875794268,
+        "metadata": {
+          "chunk_id": "cef8f1e873179f178eca1818a72df900",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 55
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "0b595550de1e5b081fb0e3369ce418ce",
+        "text": "This would result in the flooding of land currently inhabited by 20 million people in Viet Nam, equivalent to a quarter of the population (Rentschler et al., 2020). A study of HCMC indicates that flooding risks in the city may be 10 times more severe by 2050 (McKinsey, 2020). The expected increase in flooding severity is also related to the sinking of the city, thus certain areas are becoming lower and more susceptible to flooding.",
+        "score": 0.7704450299476976,
+        "metadata": {
+          "chunk_id": "0b595550de1e5b081fb0e3369ce418ce",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 80,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 70
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "f67dfa8c9dd9bfa510740fcc1299af7b",
+        "text": "The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques. In official household and population surveys, the source of urban population and poverty statistics, urban areas are typically determined by commune-level administrative classifications.",
+        "score": 0.7474650821259617,
+        "metadata": {
+          "chunk_id": "f67dfa8c9dd9bfa510740fcc1299af7b",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 58,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 48
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  },
+  {
+    "strategy": "C",
+    "id": "d15",
+    "split": "dev",
+    "question": "According to a 2022 study cited in the report, what proportion of Viet Nam's population lived in flood zones?",
+    "expected_answer": "46 percent.",
+    "gold_source_id": "worldbank-vnm-poverty-equity-2024-06",
+    "gold_page": 65,
+    "evidence_quote": "A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022).",
+    "filter_requested": null,
+    "filter_applied": null,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "cef8f1e873179f178eca1818a72df900",
+        "text": "A recent study published in 2022 found that 46 percent of Viet Nam’s population resided in flood zones, the third highest in the world after the Netherlands and Bangladesh (Rentschler, Salhab, and Jafino, 2022). Viet Nam’s largest city, Ho Chi Minh City, is one of the top 10 cities in the world with the largest population most likely to be affected by climate change. The concept of the “urbanization of poverty” has regained significance post-pandemic. Ravallion et al.",
+        "score": 0.778537875794268,
+        "metadata": {
+          "chunk_id": "cef8f1e873179f178eca1818a72df900",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 65,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 55
+        },
+        "gold_source_page_match": true,
+        "full_gold_evidence_in_chunk": true,
+        "exact_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "0b595550de1e5b081fb0e3369ce418ce",
+        "text": "This would result in the flooding of land currently inhabited by 20 million people in Viet Nam, equivalent to a quarter of the population (Rentschler et al., 2020). A study of HCMC indicates that flooding risks in the city may be 10 times more severe by 2050 (McKinsey, 2020). The expected increase in flooding severity is also related to the sinking of the city, thus certain areas are becoming lower and more susceptible to flooding.",
+        "score": 0.7704450299476976,
+        "metadata": {
+          "chunk_id": "0b595550de1e5b081fb0e3369ce418ce",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 80,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 70
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "f67dfa8c9dd9bfa510740fcc1299af7b",
+        "text": "The official proportion of the urban population in Viet Nam in 2022 was about 39 percent, but some research has shown an urbanized population could be much higher when measured using different techniques. In official household and population surveys, the source of urban population and poverty statistics, urban areas are typically determined by commune-level administrative classifications.",
+        "score": 0.7474650821259617,
+        "metadata": {
+          "chunk_id": "f67dfa8c9dd9bfa510740fcc1299af7b",
+          "document_id": "worldbank-vnm-poverty-equity-2024-06",
+          "source": "https://documents1.worldbank.org/curated/en/099070224032598476/pdf/P1810941a2c34a0491b71e1f532b48e129f.pdf",
+          "page": 58,
+          "section": "part_2_urban_inclusion",
+          "printed_page": 48
+        },
+        "gold_source_page_match": false,
+        "full_gold_evidence_in_chunk": false,
+        "exact_evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "scoring_method": "exact quote in a single chunk on the recorded gold document and page",
+    "manual_equivalence_review": "pending"
+  }
+]

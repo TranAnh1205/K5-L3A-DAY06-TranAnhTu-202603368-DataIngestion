@@ -1,0 +1,59 @@
+{
+  "split": "dev",
+  "benchmark_sha256": "460ce884258d7db54915c864000e7b0f2dd23a79c0d83ceb097313b7ab3e1182",
+  "source_sha256": "5e95b6bcb352fe002e9d4447c6a1e0936a841777e320e5b8e344856829c85ec4",
+  "model": "BAAI/bge-small-en-v1.5",
+  "scoring_method": "exact gold quote in one retrieved chunk on the gold source and page",
+  "query_elapsed_seconds": 0.86,
+  "api_cost_usd": 0,
+  "strategies": {
+    "A": {
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "n": 8,
+        "N": 15,
+        "rate": 0.5333333333333333
+      },
+      "evidence_hit_at_3": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "filter_compliance": "not_applied"
+    },
+    "B": {
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "n": 10,
+        "N": 15,
+        "rate": 0.6666666666666666
+      },
+      "evidence_hit_at_3": {
+        "n": 11,
+        "N": 15,
+        "rate": 0.7333333333333333
+      },
+      "filter_compliance": "not_applied"
+    },
+    "C": {
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "n": 10,
+        "N": 15,
+        "rate": 0.6666666666666666
+      },
+      "evidence_hit_at_3": {
+        "n": 11,
+        "N": 15,
+        "rate": 0.7333333333333333
+      },
+      "filter_compliance": {
+        "n": 3,
+        "N": 3
+      }
+    }
+  }
+}

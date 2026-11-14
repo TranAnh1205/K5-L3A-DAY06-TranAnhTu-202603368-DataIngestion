@@ -1,0 +1,959 @@
+{
+  "status": "AI-assisted draft; student review required",
+  "coherence_sample_rule": "First 10 eligible physical pages, character offset 240; same anchors across strategies.",
+  "coherence_labels": [
+    {
+      "strategy": "A",
+      "physical_page": 11,
+      "source_character_offset": 240,
+      "anchor": " accompanied by declining ineq",
+      "chunk_id": "dae9b91eb9df9e71d469e44fb5b4dae4",
+      "chunk_text": "Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty and equity dynamics in Viet Nam can be described across three distinct phases (Figure O.1). First, at the start of the decade, there was rapid poverty reduction accompanied by declining inequality. From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs. Most of these non-farm jobs were still low-skilled, and agricultural laborers could easily",
+      "score_0_to_2": 1,
+      "reason": "Ends mid-sentence at 'easily'."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 11,
+      "source_character_offset": 240,
+      "anchor": " accompanied by declining ineq",
+      "chunk_id": "0f12dc4bf5518594100ce097ab2abd59",
+      "chunk_text": "Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty and equity dynamics in Viet Nam can be described across three distinct phases (Figure O.1). First, at the start of the decade, there was rapid poverty reduction accompanied by declining inequality. From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs.",
+      "score_0_to_2": 2,
+      "reason": "The labor-shift idea ends at a sentence boundary."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 11,
+      "source_character_offset": 240,
+      "anchor": " accompanied by declining ineq",
+      "chunk_id": "0f12dc4bf5518594100ce097ab2abd59",
+      "chunk_text": "Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty and equity dynamics in Viet Nam can be described across three distinct phases (Figure O.1). First, at the start of the decade, there was rapid poverty reduction accompanied by declining inequality. From 2010-14, both poverty and inequality fell due to large shifts in labor from agriculture into manufacturing and services jobs.",
+      "score_0_to_2": 2,
+      "reason": "The labor-shift idea ends at a sentence boundary."
+    },
+    {
+      "strategy": "A",
+      "physical_page": 12,
+      "source_character_offset": 240,
+      "anchor": "ouseholds spent less on eating",
+      "chunk_id": "1be9f3a230bcf69bba127f61dbe77670",
+      "chunk_text": "2 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2). Notably, households spent less on eating out, non-essential food items like ice cream, and non-food items like clothing. With the avoidance of public spaces, more households consumed food grown at home. Expenditures on education and health also declined as schools reduc",
+      "score_0_to_2": 1,
+      "reason": "Ends mid-word at 'reduc'."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 12,
+      "source_character_offset": 240,
+      "anchor": "ouseholds spent less on eating",
+      "chunk_id": "ae4f91dc4051d6f121a974297fa255b8",
+      "chunk_text": "2 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2). Notably, households spent less on eating out, non-essential food items like ice cream, and non-food items like clothing. With the avoidance of public spaces, more households consumed food grown at home.",
+      "score_0_to_2": 2,
+      "reason": "The spending examples are complete sentences."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 12,
+      "source_character_offset": 240,
+      "anchor": "ouseholds spent less on eating",
+      "chunk_id": "ae4f91dc4051d6f121a974297fa255b8",
+      "chunk_text": "2 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW Household consumption, the welfare metric used in this report for global poverty measurement and monitoring, contracted from 2020 to 2022 in Viet Nam (Figure O.2). Notably, households spent less on eating out, non-essential food items like ice cream, and non-food items like clothing. With the avoidance of public spaces, more households consumed food grown at home.",
+      "score_0_to_2": 2,
+      "reason": "The spending examples are complete sentences."
+    },
+    {
+      "strategy": "A",
+      "physical_page": 13,
+      "source_character_offset": 240,
+      "anchor": "ansformation of the labor forc",
+      "chunk_id": "856fe1fed1a24969677a8bede5958b23",
+      "chunk_text": "Towards more inclusive cities 3 OVERVIEW As Viet Nam continues eliminating structural factors related to extreme poverty, future prosperity will be more interlinked with economic developments and the creation of good jobs. The structural transformation of the labor force, out of agriculture and into manufacturing and services sectors, has been the main channel of upwards economic mobility for households. However, the transformation is not complete. Moreover, the vulnerability of certain jobs was",
+      "score_0_to_2": 1,
+      "reason": "Ends before completing the sentence about job vulnerability."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 13,
+      "source_character_offset": 240,
+      "anchor": "ansformation of the labor forc",
+      "chunk_id": "0b82f64261b7b72b1881cf99b08d54da",
+      "chunk_text": "Towards more inclusive cities 3 OVERVIEW As Viet Nam continues eliminating structural factors related to extreme poverty, future prosperity will be more interlinked with economic developments and the creation of good jobs. The structural transformation of the labor force, out of agriculture and into manufacturing and services sectors, has been the main channel of upwards economic mobility for households. However, the transformation is not complete.",
+      "score_0_to_2": 2,
+      "reason": "The mobility and incomplete transformation statements are complete."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 13,
+      "source_character_offset": 240,
+      "anchor": "ansformation of the labor forc",
+      "chunk_id": "0b82f64261b7b72b1881cf99b08d54da",
+      "chunk_text": "Towards more inclusive cities 3 OVERVIEW As Viet Nam continues eliminating structural factors related to extreme poverty, future prosperity will be more interlinked with economic developments and the creation of good jobs. The structural transformation of the labor force, out of agriculture and into manufacturing and services sectors, has been the main channel of upwards economic mobility for households. However, the transformation is not complete.",
+      "score_0_to_2": 2,
+      "reason": "The mobility and incomplete transformation statements are complete."
+    },
+    {
+      "strategy": "A",
+      "physical_page": 14,
+      "source_character_offset": 240,
+      "anchor": "hallenges are more urgent in u",
+      "chunk_id": "b36340410c36ccd08451ce630cee24bd",
+      "chunk_text": "4 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW larger adverse impacts in urban areas occurred recently during 2020-22, related to sharper shocks and economic disruptions experienced during the pandemic. Some development challenges are more urgent in urban areas than rural ones. For example, crowded housing conditions, higher living costs, congested traffic, lack of mobility and access to jobs, or air pollution are more likely to be risks and challenges to populations in urban",
+      "score_0_to_2": 1,
+      "reason": "Ends mid-list at 'urban'."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 14,
+      "source_character_offset": 240,
+      "anchor": "hallenges are more urgent in u",
+      "chunk_id": "4046acb7834db76c2062e56a126d6ad2",
+      "chunk_text": "4 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW larger adverse impacts in urban areas occurred recently during 2020-22, related to sharper shocks and economic disruptions experienced during the pandemic. Some development challenges are more urgent in urban areas than rural ones.",
+      "score_0_to_2": 1,
+      "reason": "The page starts with a sentence fragment despite a clean ending."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 14,
+      "source_character_offset": 240,
+      "anchor": "hallenges are more urgent in u",
+      "chunk_id": "4046acb7834db76c2062e56a126d6ad2",
+      "chunk_text": "4 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW larger adverse impacts in urban areas occurred recently during 2020-22, related to sharper shocks and economic disruptions experienced during the pandemic. Some development challenges are more urgent in urban areas than rural ones.",
+      "score_0_to_2": 1,
+      "reason": "The page starts with a sentence fragment despite a clean ending."
+    },
+    {
+      "strategy": "A",
+      "physical_page": 15,
+      "source_character_offset": 240,
+      "anchor": "kling poverty through rural de",
+      "chunk_id": "0075a78dcbb928ca7fc2e70ae3000358",
+      "chunk_text": "Towards more inclusive cities 5 OVERVIEW The rate of urbanization is an important consideration for policy direction in a Next Mile context 6. Due to well-designed social and poverty reduction policies, Viet Nam has had great success in tackling poverty through rural development and targeting ethnic minorities and mountainous areas. In particular, National T argeted Programs (NTPs) have been quite successful. However, less and less of Viet Nam’s population is reliant on rural livelihoods and far",
+      "score_0_to_2": 1,
+      "reason": "Ends mid-word at 'far'."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 15,
+      "source_character_offset": 240,
+      "anchor": "kling poverty through rural de",
+      "chunk_id": "6f7459caef37e85213445d3f91232c04",
+      "chunk_text": "Towards more inclusive cities 5 OVERVIEW The rate of urbanization is an important consideration for policy direction in a Next Mile context 6. Due to well-designed social and poverty reduction policies, Viet Nam has had great success in tackling poverty through rural development and targeting ethnic minorities and mountainous areas. In particular, National T argeted Programs (NTPs) have been quite successful.",
+      "score_0_to_2": 2,
+      "reason": "Rural-development statements retain their context."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 15,
+      "source_character_offset": 240,
+      "anchor": "kling poverty through rural de",
+      "chunk_id": "6f7459caef37e85213445d3f91232c04",
+      "chunk_text": "Towards more inclusive cities 5 OVERVIEW The rate of urbanization is an important consideration for policy direction in a Next Mile context 6. Due to well-designed social and poverty reduction policies, Viet Nam has had great success in tackling poverty through rural development and targeting ethnic minorities and mountainous areas. In particular, National T argeted Programs (NTPs) have been quite successful.",
+      "score_0_to_2": 2,
+      "reason": "Rural-development statements retain their context."
+    },
+    {
+      "strategy": "A",
+      "physical_page": 16,
+      "source_character_offset": 240,
+      "anchor": " HCMC reside in its urban dist",
+      "chunk_id": "08d74302e848098f0eb399ba51f617dd",
+      "chunk_text": "6 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW risk, among other trends. HCMC is a good example of a diverse metropolis with a gradient of rural-to-urban areas. By official accounts, almost 80 percent of the population in HCMC reside in its urban districts, with the remainder in rural districts. However, even in its urban districts, there are variations in housing characteristics, education and demographics. This is especially the case with large-sized districts. In the case o",
+      "score_0_to_2": 1,
+      "reason": "Ends mid-phrase at 'In the case o'."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 16,
+      "source_character_offset": 240,
+      "anchor": " HCMC reside in its urban dist",
+      "chunk_id": "64cc0ce3e25d190301024a080a06e777",
+      "chunk_text": "6 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW risk, among other trends. HCMC is a good example of a diverse metropolis with a gradient of rural-to-urban areas. By official accounts, almost 80 percent of the population in HCMC reside in its urban districts, with the remainder in rural districts. However, even in its urban districts, there are variations in housing characteristics, education and demographics. This is especially the case with large-sized districts.",
+      "score_0_to_2": 1,
+      "reason": "The page starts with 'risk, among other trends', an inherited fragment."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 16,
+      "source_character_offset": 240,
+      "anchor": " HCMC reside in its urban dist",
+      "chunk_id": "64cc0ce3e25d190301024a080a06e777",
+      "chunk_text": "6 Viet Nam bi-annual poverty & equity update - June 2024 OVERVIEW risk, among other trends. HCMC is a good example of a diverse metropolis with a gradient of rural-to-urban areas. By official accounts, almost 80 percent of the population in HCMC reside in its urban districts, with the remainder in rural districts. However, even in its urban districts, there are variations in housing characteristics, education and demographics. This is especially the case with large-sized districts.",
+      "score_0_to_2": 1,
+      "reason": "The page starts with 'risk, among other trends', an inherited fragment."
+    },
+    {
+      "strategy": "A",
+      "physical_page": 18,
+      "source_character_offset": 240,
+      "anchor": "g Sustainable Development Goal",
+      "chunk_id": "f3f065254875f505400ccdb8d0d8db5b",
+      "chunk_text": "8 June 2024 - Viet Nam bi-annual poverty & equity update PART 1. Poverty & Equity Update7 7 The dynamics discussed in this report are based on poverty and equity indicators computed by the W orld Bank for global poverty monitoring, including Sustainable Development Goal 1 (see Annex B). The W orld Bank monitors welfare in Viet Nam using household consumption per capita, adjusted to international 2017 PPPs. Viet Nam’s official poverty indicator is a multi-dimensional indicator comprised of 12 non",
+      "score_0_to_2": 1,
+      "reason": "Ends mid-word at 'non'."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 18,
+      "source_character_offset": 240,
+      "anchor": "g Sustainable Development Goal",
+      "chunk_id": "89c4656259c12b5f6af8daf1babe2e7f",
+      "chunk_text": "8 June 2024 - Viet Nam bi-annual poverty & equity update PART 1. Poverty & Equity Update7 7 The dynamics discussed in this report are based on poverty and equity indicators computed by the W orld Bank for global poverty monitoring, including Sustainable Development Goal 1 (see Annex B). The W orld Bank monitors welfare in Viet Nam using household consumption per capita, adjusted to international 2017 PPPs.",
+      "score_0_to_2": 2,
+      "reason": "The poverty-measurement sentence is complete and traceable."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 18,
+      "source_character_offset": 240,
+      "anchor": "g Sustainable Development Goal",
+      "chunk_id": "89c4656259c12b5f6af8daf1babe2e7f",
+      "chunk_text": "8 June 2024 - Viet Nam bi-annual poverty & equity update PART 1. Poverty & Equity Update7 7 The dynamics discussed in this report are based on poverty and equity indicators computed by the W orld Bank for global poverty monitoring, including Sustainable Development Goal 1 (see Annex B). The W orld Bank monitors welfare in Viet Nam using household consumption per capita, adjusted to international 2017 PPPs.",
+      "score_0_to_2": 2,
+      "reason": "The poverty-measurement sentence is complete and traceable."
+    },
+    {
+      "strategy": "A",
+      "physical_page": 19,
+      "source_character_offset": 240,
+      "anchor": " poverty reduction was also af",
+      "chunk_id": "3ba6a0c2f167788595059e00bd7f3b44",
+      "chunk_text": "Towards more inclusive cities 9 Part 1 discusses recent short-term poverty and equity dynamics (2020-22), anchored in longer-term trends. Globally, the COVID-19 pandemic resulted in unprecedented increases in poverty. Viet Nam’s progress in poverty reduction was also affected. The first section discusses changes in 2022’s poverty rates and inequality. Incomes are the key to household poverty dynamics, and section 2 examines recent trends among labor and non-labor income sources, as well as the r",
+      "score_0_to_2": 1,
+      "reason": "Ends mid-word after introducing income sources."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 19,
+      "source_character_offset": 240,
+      "anchor": " poverty reduction was also af",
+      "chunk_id": "3aed0bc33e17a7c13672d5fbdee8f84e",
+      "chunk_text": "Towards more inclusive cities 9 Part 1 discusses recent short-term poverty and equity dynamics (2020-22), anchored in longer-term trends. Globally, the COVID-19 pandemic resulted in unprecedented increases in poverty. Viet Nam’s progress in poverty reduction was also affected. The first section discusses changes in 2022’s poverty rates and inequality.",
+      "score_0_to_2": 2,
+      "reason": "The Part 1 introduction ends at a sentence boundary."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 19,
+      "source_character_offset": 240,
+      "anchor": " poverty reduction was also af",
+      "chunk_id": "3aed0bc33e17a7c13672d5fbdee8f84e",
+      "chunk_text": "Towards more inclusive cities 9 Part 1 discusses recent short-term poverty and equity dynamics (2020-22), anchored in longer-term trends. Globally, the COVID-19 pandemic resulted in unprecedented increases in poverty. Viet Nam’s progress in poverty reduction was also affected. The first section discusses changes in 2022’s poverty rates and inequality.",
+      "score_0_to_2": 2,
+      "reason": "The Part 1 introduction ends at a sentence boundary."
+    },
+    {
+      "strategy": "A",
+      "physical_page": 20,
+      "source_character_offset": 240,
+      "anchor": "trends in Viet Nam can be summ",
+      "chunk_id": "e2b02e15604b1451b388065b97c4e654",
+      "chunk_text": "PART 1. POVERTY & EQUITY UPDATE 10 Viet Nam bi-annual poverty & equity update - June 2024 1. Poverty and equity developments A decade of successful poverty reduction in Viet Nam stalled during the COVID-19 pandemic Recent poverty reduction trends in Viet Nam can be summarized in three distinct phases, with Part 1 of this report focusing on the third exceptional phase during 2020-22 8. Changes in poverty can be decomposed into different components, with Figure 1 illustrating changes in poverty by",
+      "score_0_to_2": 1,
+      "reason": "Ends mid-sentence at 'by'."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 20,
+      "source_character_offset": 240,
+      "anchor": "trends in Viet Nam can be summ",
+      "chunk_id": "847d8ef875da8fa1edb805229ae375f3",
+      "chunk_text": "PART 1. POVERTY & EQUITY UPDATE 10 Viet Nam bi-annual poverty & equity update - June 2024 1. Poverty and equity developments A decade of successful poverty reduction in Viet Nam stalled during the COVID-19 pandemic Recent poverty reduction trends in Viet Nam can be summarized in three distinct phases, with Part 1 of this report focusing on the third exceptional phase during 2020-22 8.",
+      "score_0_to_2": 2,
+      "reason": "The first paragraph is understandable despite a footnote marker."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 20,
+      "source_character_offset": 240,
+      "anchor": "trends in Viet Nam can be summ",
+      "chunk_id": "847d8ef875da8fa1edb805229ae375f3",
+      "chunk_text": "PART 1. POVERTY & EQUITY UPDATE 10 Viet Nam bi-annual poverty & equity update - June 2024 1. Poverty and equity developments A decade of successful poverty reduction in Viet Nam stalled during the COVID-19 pandemic Recent poverty reduction trends in Viet Nam can be summarized in three distinct phases, with Part 1 of this report focusing on the third exceptional phase during 2020-22 8.",
+      "score_0_to_2": 2,
+      "reason": "The first paragraph is understandable despite a footnote marker."
+    },
+    {
+      "strategy": "A",
+      "physical_page": 21,
+      "source_character_offset": 240,
+      "anchor": " between inequality and econom",
+      "chunk_id": "f015110c66b4c615ccf718fc47c74c68",
+      "chunk_text": "1. Poverty and equity develoPments Towards more inclusive cities 11 Economic growth has a less consistent relationship with inequality, than it does with poverty (Figure 3, panel A). Large volumes of literature have studied the relationship between inequality and economic growth, most with inconclusive results (W orld Bank, 2006). Most large economies in EAP do not have a Gini coefficient above 0.4, which is the W orld Bank’s threshold for high inequality. While inequality was rising slowly in V",
+      "score_0_to_2": 1,
+      "reason": "Ends mid-word at 'V'."
+    },
+    {
+      "strategy": "B",
+      "physical_page": 21,
+      "source_character_offset": 240,
+      "anchor": " between inequality and econom",
+      "chunk_id": "d5c1fbf2e6c3a435433307b045ce8813",
+      "chunk_text": "1. Poverty and equity develoPments Towards more inclusive cities 11 Economic growth has a less consistent relationship with inequality, than it does with poverty (Figure 3, panel A). Large volumes of literature have studied the relationship between inequality and economic growth, most with inconclusive results (W orld Bank, 2006). Most large economies in EAP do not have a Gini coefficient above 0.4, which is the W orld Bank’s threshold for high inequality.",
+      "score_0_to_2": 2,
+      "reason": "The inequality comparison is expressed in complete sentences."
+    },
+    {
+      "strategy": "C",
+      "physical_page": 21,
+      "source_character_offset": 240,
+      "anchor": " between inequality and econom",
+      "chunk_id": "d5c1fbf2e6c3a435433307b045ce8813",
+      "chunk_text": "1. Poverty and equity develoPments Towards more inclusive cities 11 Economic growth has a less consistent relationship with inequality, than it does with poverty (Figure 3, panel A). Large volumes of literature have studied the relationship between inequality and economic growth, most with inconclusive results (W orld Bank, 2006). Most large economies in EAP do not have a Gini coefficient above 0.4, which is the W orld Bank’s threshold for high inequality.",
+      "score_0_to_2": 2,
+      "reason": "The inequality comparison is expressed in complete sentences."
+    }
+  ],
+  "grounding_labels": [
+    {
+      "strategy": "A",
+      "question_id": "t01",
+      "score_0_to_2": 1,
+      "reason": "The gold-page chunk stops during the three-group list; the full answer is missing.",
+      "top3_chunk_ids": [
+        "14fa8e3c84b44092eb45f1f8214ca39c",
+        "f0520875c70d3dc1cb7447bca57d6ceb",
+        "1d87c41e8a3eb7082c94886f32b29422"
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "t01",
+      "score_0_to_2": 0,
+      "reason": "Top-3 discusses monitoring and recovery but does not identify the three groups.",
+      "top3_chunk_ids": [
+        "d27eb4a6276e60391d6ac0354e87fb48",
+        "89b3a0fe0df0f79320f8c79a02e03d05",
+        "42f4ddb76ce2fc55c284520506f15875"
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "t01",
+      "score_0_to_2": 0,
+      "reason": "No filter was requested; top-3 does not name the three groups.",
+      "top3_chunk_ids": [
+        "d27eb4a6276e60391d6ac0354e87fb48",
+        "89b3a0fe0df0f79320f8c79a02e03d05",
+        "42f4ddb76ce2fc55c284520506f15875"
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "t02",
+      "score_0_to_2": 1,
+      "reason": "Top-3 gives a DOU urban-cluster comparison, but not the requested DB town rate.",
+      "top3_chunk_ids": [
+        "ac4610ab709738efd35a044c9d2fba96",
+        "294956f9dd33697e641b0a79ece0b240",
+        "8da15e18a753bd4a5d3590b4d82fdb72"
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "t02",
+      "score_0_to_2": 1,
+      "reason": "Top-3 gives a DOU comparison, not the requested DB town rate.",
+      "top3_chunk_ids": [
+        "1acddf2f4242b61ed191639c1df11866",
+        "78bd368a146a2c273736227a335fa638",
+        "4fe46050a0fa008655749fd76ba7020c"
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "t02",
+      "score_0_to_2": 2,
+      "reason": "Filtered rank 2 contains the DB town and urban-core comparison.",
+      "top3_chunk_ids": [
+        "f83982323e6d473b79f305350b758da5",
+        "5a5e0ff221697ffea42368a18e235d5f",
+        "694fb5d4510738e077882545e4837a6c"
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "t03",
+      "score_0_to_2": 2,
+      "reason": "Rank 2 contains the flood-risk passage with its welfare mechanism and source.",
+      "top3_chunk_ids": [
+        "b2c84b105b8d1bc2ccf785a544cbfb9f",
+        "3f9cec1bf6272fbd6de3cc0922409a1f",
+        "f2bd07fc3c9353770c1676d626044cee"
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "t03",
+      "score_0_to_2": 2,
+      "reason": "Rank 3 contains the complete flood-risk passage.",
+      "top3_chunk_ids": [
+        "cf642038c792e774b4941d7749c155ce",
+        "503f52d9646cd039789190d44fd52736",
+        "9088c43c19e50932459c5e866ed23ed2"
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "t03",
+      "score_0_to_2": 2,
+      "reason": "Rank 3 contains the complete flood-risk passage.",
+      "top3_chunk_ids": [
+        "cf642038c792e774b4941d7749c155ce",
+        "503f52d9646cd039789190d44fd52736",
+        "9088c43c19e50932459c5e866ed23ed2"
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "t04",
+      "score_0_to_2": 2,
+      "reason": "Rank 1 contains both 2025 housing targets and their urban/rural conditions.",
+      "top3_chunk_ids": [
+        "b2c84b105b8d1bc2ccf785a544cbfb9f",
+        "7b680c73173eedf6b4176b4fb215a0a4",
+        "55d1360ea7d540641664b60b0ff98e02"
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "t04",
+      "score_0_to_2": 2,
+      "reason": "Rank 2 contains both housing targets and the 2025 context.",
+      "top3_chunk_ids": [
+        "67a042abaab05c91ea9ac6bccd102044",
+        "cf642038c792e774b4941d7749c155ce",
+        "adc0c21fe72ba50843dd206fc21ff2d2"
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "t04",
+      "score_0_to_2": 2,
+      "reason": "Rank 2 contains both housing targets and the 2025 context.",
+      "top3_chunk_ids": [
+        "67a042abaab05c91ea9ac6bccd102044",
+        "cf642038c792e774b4941d7749c155ce",
+        "adc0c21fe72ba50843dd206fc21ff2d2"
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "t05",
+      "score_0_to_2": 1,
+      "reason": "Rank 1 stops after the 19 percent migrant figure, before the non-migrant comparison.",
+      "top3_chunk_ids": [
+        "2d6b5c0a1ee638fe50924c2d64b0da22",
+        "3d5663957f0a8c23bb8854bef7e29d43",
+        "35f6e7d7491cc94b84e49665301c0d1f"
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "t05",
+      "score_0_to_2": 2,
+      "reason": "Rank 1 contains both migrant and non-migrant rates.",
+      "top3_chunk_ids": [
+        "b993151a7e7f9b7107a42a615d000175",
+        "602f9aa39d1549a70d654df2affd2f26",
+        "1aaea20904f95d3c6e81b44a7e68f13b"
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "t05",
+      "score_0_to_2": 2,
+      "reason": "Rank 1 contains both migrant and non-migrant rates.",
+      "top3_chunk_ids": [
+        "b993151a7e7f9b7107a42a615d000175",
+        "602f9aa39d1549a70d654df2affd2f26",
+        "1aaea20904f95d3c6e81b44a7e68f13b"
+      ]
+    }
+  ],
+  "metadata_checks": [
+    {
+      "strategy": "A",
+      "question_id": "t01",
+      "rank": 1,
+      "chunk_id": "14fa8e3c84b44092eb45f1f8214ca39c",
+      "page": 13,
+      "section": "overview",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t01",
+      "rank": 2,
+      "chunk_id": "f0520875c70d3dc1cb7447bca57d6ceb",
+      "page": 44,
+      "section": "part_1_poverty_equity_update",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t01",
+      "rank": 3,
+      "chunk_id": "1d87c41e8a3eb7082c94886f32b29422",
+      "page": 87,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t01",
+      "rank": 1,
+      "chunk_id": "d27eb4a6276e60391d6ac0354e87fb48",
+      "page": 13,
+      "section": "overview",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t01",
+      "rank": 2,
+      "chunk_id": "89b3a0fe0df0f79320f8c79a02e03d05",
+      "page": 43,
+      "section": "part_1_poverty_equity_update",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t01",
+      "rank": 3,
+      "chunk_id": "42f4ddb76ce2fc55c284520506f15875",
+      "page": 43,
+      "section": "part_1_poverty_equity_update",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t01",
+      "rank": 1,
+      "chunk_id": "d27eb4a6276e60391d6ac0354e87fb48",
+      "page": 13,
+      "section": "overview",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t01",
+      "rank": 2,
+      "chunk_id": "89b3a0fe0df0f79320f8c79a02e03d05",
+      "page": 43,
+      "section": "part_1_poverty_equity_update",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t01",
+      "rank": 3,
+      "chunk_id": "42f4ddb76ce2fc55c284520506f15875",
+      "page": 43,
+      "section": "part_1_poverty_equity_update",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t02",
+      "rank": 1,
+      "chunk_id": "ac4610ab709738efd35a044c9d2fba96",
+      "page": 23,
+      "section": "part_1_poverty_equity_update",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t02",
+      "rank": 2,
+      "chunk_id": "294956f9dd33697e641b0a79ece0b240",
+      "page": 15,
+      "section": "overview",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t02",
+      "rank": 3,
+      "chunk_id": "8da15e18a753bd4a5d3590b4d82fdb72",
+      "page": 14,
+      "section": "overview",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t02",
+      "rank": 1,
+      "chunk_id": "1acddf2f4242b61ed191639c1df11866",
+      "page": 15,
+      "section": "overview",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t02",
+      "rank": 2,
+      "chunk_id": "78bd368a146a2c273736227a335fa638",
+      "page": 14,
+      "section": "overview",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t02",
+      "rank": 3,
+      "chunk_id": "4fe46050a0fa008655749fd76ba7020c",
+      "page": 23,
+      "section": "part_1_poverty_equity_update",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t02",
+      "rank": 1,
+      "chunk_id": "f83982323e6d473b79f305350b758da5",
+      "page": 66,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t02",
+      "rank": 2,
+      "chunk_id": "5a5e0ff221697ffea42368a18e235d5f",
+      "page": 67,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t02",
+      "rank": 3,
+      "chunk_id": "694fb5d4510738e077882545e4837a6c",
+      "page": 67,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t03",
+      "rank": 1,
+      "chunk_id": "b2c84b105b8d1bc2ccf785a544cbfb9f",
+      "page": 75,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t03",
+      "rank": 2,
+      "chunk_id": "3f9cec1bf6272fbd6de3cc0922409a1f",
+      "page": 73,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t03",
+      "rank": 3,
+      "chunk_id": "f2bd07fc3c9353770c1676d626044cee",
+      "page": 73,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t03",
+      "rank": 1,
+      "chunk_id": "cf642038c792e774b4941d7749c155ce",
+      "page": 75,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t03",
+      "rank": 2,
+      "chunk_id": "503f52d9646cd039789190d44fd52736",
+      "page": 75,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t03",
+      "rank": 3,
+      "chunk_id": "9088c43c19e50932459c5e866ed23ed2",
+      "page": 73,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t03",
+      "rank": 1,
+      "chunk_id": "cf642038c792e774b4941d7749c155ce",
+      "page": 75,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t03",
+      "rank": 2,
+      "chunk_id": "503f52d9646cd039789190d44fd52736",
+      "page": 75,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t03",
+      "rank": 3,
+      "chunk_id": "9088c43c19e50932459c5e866ed23ed2",
+      "page": 73,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t04",
+      "rank": 1,
+      "chunk_id": "b2c84b105b8d1bc2ccf785a544cbfb9f",
+      "page": 75,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t04",
+      "rank": 2,
+      "chunk_id": "7b680c73173eedf6b4176b4fb215a0a4",
+      "page": 77,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t04",
+      "rank": 3,
+      "chunk_id": "55d1360ea7d540641664b60b0ff98e02",
+      "page": 24,
+      "section": "part_1_poverty_equity_update",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t04",
+      "rank": 1,
+      "chunk_id": "67a042abaab05c91ea9ac6bccd102044",
+      "page": 77,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t04",
+      "rank": 2,
+      "chunk_id": "cf642038c792e774b4941d7749c155ce",
+      "page": 75,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t04",
+      "rank": 3,
+      "chunk_id": "adc0c21fe72ba50843dd206fc21ff2d2",
+      "page": 81,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t04",
+      "rank": 1,
+      "chunk_id": "67a042abaab05c91ea9ac6bccd102044",
+      "page": 77,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t04",
+      "rank": 2,
+      "chunk_id": "cf642038c792e774b4941d7749c155ce",
+      "page": 75,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t04",
+      "rank": 3,
+      "chunk_id": "adc0c21fe72ba50843dd206fc21ff2d2",
+      "page": 81,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t05",
+      "rank": 1,
+      "chunk_id": "2d6b5c0a1ee638fe50924c2d64b0da22",
+      "page": 83,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t05",
+      "rank": 2,
+      "chunk_id": "3d5663957f0a8c23bb8854bef7e29d43",
+      "page": 82,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "t05",
+      "rank": 3,
+      "chunk_id": "35f6e7d7491cc94b84e49665301c0d1f",
+      "page": 83,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t05",
+      "rank": 1,
+      "chunk_id": "b993151a7e7f9b7107a42a615d000175",
+      "page": 83,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t05",
+      "rank": 2,
+      "chunk_id": "602f9aa39d1549a70d654df2affd2f26",
+      "page": 83,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "t05",
+      "rank": 3,
+      "chunk_id": "1aaea20904f95d3c6e81b44a7e68f13b",
+      "page": 83,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t05",
+      "rank": 1,
+      "chunk_id": "b993151a7e7f9b7107a42a615d000175",
+      "page": 83,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t05",
+      "rank": 2,
+      "chunk_id": "602f9aa39d1549a70d654df2affd2f26",
+      "page": 83,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "t05",
+      "rank": 3,
+      "chunk_id": "1aaea20904f95d3c6e81b44a7e68f13b",
+      "page": 83,
+      "section": "part_2_urban_inclusion",
+      "source_and_metadata_match_manifest": true
+    }
+  ],
+  "summary": {
+    "A": {
+      "coherence": {
+        "n": 10,
+        "mean_out_of_2": 1.0,
+        "score_counts": {
+          "1": 10
+        }
+      },
+      "grounding": {
+        "n": 5,
+        "mean_out_of_2": 1.4,
+        "score_counts": {
+          "1": 3,
+          "2": 2
+        }
+      },
+      "metadata_correct": {
+        "n": 15,
+        "N": 15
+      },
+      "filter_compliance": "not_applied"
+    },
+    "B": {
+      "coherence": {
+        "n": 10,
+        "mean_out_of_2": 1.8,
+        "score_counts": {
+          "2": 8,
+          "1": 2
+        }
+      },
+      "grounding": {
+        "n": 5,
+        "mean_out_of_2": 1.4,
+        "score_counts": {
+          "0": 1,
+          "1": 1,
+          "2": 3
+        }
+      },
+      "metadata_correct": {
+        "n": 15,
+        "N": 15
+      },
+      "filter_compliance": "not_applied"
+    },
+    "C": {
+      "coherence": {
+        "n": 10,
+        "mean_out_of_2": 1.8,
+        "score_counts": {
+          "2": 8,
+          "1": 2
+        }
+      },
+      "grounding": {
+        "n": 5,
+        "mean_out_of_2": 1.6,
+        "score_counts": {
+          "0": 1,
+          "2": 4
+        }
+      },
+      "metadata_correct": {
+        "n": 15,
+        "N": 15
+      },
+      "filter_compliance": {
+        "n": 1,
+        "N": 1
+      }
+    }
+  },
+  "limitations": [
+    "Coherence sample emphasizes page beginnings and may not represent all chunks.",
+    "Metadata checks compare trace fields to the manifest; source-page visual spot checks remain for the student.",
+    "Equivalent evidence on unlisted pages has not been fully adjudicated."
+  ]
+}

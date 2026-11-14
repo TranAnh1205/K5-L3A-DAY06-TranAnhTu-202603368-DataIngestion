@@ -1,65 +1,51 @@
-# Starter · PostgreSQL + pgvector
+# Pipeline cá nhân Day 06
 
-Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; các file trong `src/` là **khung pseudocode có TODO**, chưa đọc tài liệu, tạo embedding, lưu vector hay chạy benchmark. Bạn cần tự hiện thực. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Pipeline hiện tại đọc báo cáo World Bank trong `../data/manifest.json`, tạo embedding thật bằng FastEmbed local và lưu vector trên đĩa bằng Qdrant local mode. Không cần Docker hoặc API key. Các file `docker-compose.yml` và `init.sql` là lựa chọn PostgreSQL/pgvector của starter gốc, không được sử dụng trong lần chạy này.
 
-## Cấu trúc
+## Cài đặt và chạy
 
-```text
-starter/
-├── docker-compose.yml     # PostgreSQL 16 + pgvector, chỉ mở cổng local
-├── init.sql               # bật extension khi tạo database mới
-├── requirements.txt       # psycopg, pypdf và python-dotenv
-├── .env.example           # cấu hình mẫu; copy thành .env
-├── scripts/check_setup.py # kiểm tra kết nối và extension (đã chạy được)
-├── src/
-│   ├── models.py          # cấu trúc dữ liệu mẫu
-│   ├── ingestion.py       # TODO: đọc / chuẩn hóa tài liệu
-│   ├── chunking.py        # TODO: chia chunk
-│   ├── embeddings.py      # TODO: chọn model API hoặc local
-│   ├── store.py           # TODO: lưu vector, metadata và filter
-│   ├── evaluation.py      # TODO: chấm truy xuất, lưu trace
-│   └── run.py             # TODO: kết nối các bước thành pipeline
-├── data/                  # bạn tự chuẩn bị corpus được phép sử dụng
-└── results/               # lưu kết quả của bạn
-```
+Từ thư mục gốc repo, dùng Python 3.11–3.14:
 
-## 1. Cài và kiểm tra database
-
-Cần Docker Desktop hoặc Docker Engine + Compose, Python **3.11–3.14**, và mạng để tải image/dependencies lần đầu. Các lệnh sau chạy từ thư mục `starter/`:
-
-```bash
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r starter/requirements.txt
+python data/prepare_corpus.py
+python benchmark/validate.py
 cd starter
-python3 -m venv .venv
+python -m src.run
+python -m src.check_reingest
+python -m src.check_full_reingest
 ```
 
-Kích hoạt `.venv`: macOS/Linux dùng `source .venv/bin/activate`; Windows PowerShell dùng `.venv\Scripts\Activate.ps1`. Sau đó:
+Lần đầu FastEmbed tải model `BAAI/bge-small-en-v1.5` (384 chiều, tiếng Anh). Lỗi tải model hoặc backend sẽ dừng pipeline; không có fallback sang vector giả. Kết quả bước ingestion ở `starter/results/ingestion_summary.json`; Qdrant bền vững ở `starter/qdrant_storage/` (được Git bỏ qua). Để chạy lại, thực hiện `python -m src.run` từ `starter/`. Script upsert theo ID ổn định và xóa chunk không còn thuộc corpus, nên không tích lũy chunk cũ hay nhân đôi khi dữ liệu thay đổi; C dùng đúng collection B và chỉ thay filter ở lúc truy vấn.
 
-```bash
-python -m pip install -r requirements.txt
-# macOS/Linux: cp .env.example .env
-# Windows PowerShell: Copy-Item .env.example .env
-docker compose -p day6_student_starter up -d --wait
-python scripts/check_setup.py
+`python -m src.check_reingest` chạy phép thử trên một Qdrant tạm với vector tổng hợp: nạp cùng dữ liệu hai lần, cập nhật một chunk, xóa một chunk cũ, rồi kiểm tra filter. Kết quả lưu ở `../results/reingest_check.json`. Phép thử xác nhận hành vi của store, không thay cho việc chạy lại corpus 67 trang. Pipeline hiện tạo lại embedding cho toàn bộ chunk ở mỗi lần chạy.
+
+`python -m src.check_full_reingest` nạp lại corpus thật và kiểm tra hash của tập point ID cùng số điểm trước/sau ở cả hai collection. Kết quả lần chạy đã lưu ở `../results/full_reingest_check.json`: A 484→484, B 549→549, ID không đổi. Lệnh này vẫn tính lại toàn bộ embedding và tốn vài phút. Model cache snapshot và hash file đã quan sát nằm ở `../results/model_provenance.json`; FastEmbed chưa được cấu hình ép revision đó trên máy khác.
+
+## Cấu hình
+
+| Strategy | Chunk | Retrieval |
+| --- | --- | --- |
+| A | Cửa sổ 500 ký tự, overlap 50, không vượt trang | Cosine, không filter |
+| B | Nhóm câu hoàn chỉnh, tối đa 500 ký tự, không vượt trang | Cosine, không filter |
+| C | Dùng nguyên chunk và vector của B | Cosine, lọc `section` khi câu hỏi cung cấp |
+
+Mỗi chunk có `document_id`, `source`, số trang PDF vật lý `page`, `printed_page`, và `section`. `section` lấy trực tiếp từ phần Overview / Part 1 / Part 2 của báo cáo; không suy ra từ trang gold ở lúc retrieval. Model và metric giống nhau giữa ba chiến lược. Qdrant local thực hiện tìm kiếm exact cho corpus nhỏ này.
+
+PDF gốc có ngắt dòng, ký tự lỗi và footnote lẫn trong thân bài. B dùng ranh giới câu vì PDF không có dấu phân đoạn văn bản ổn định. Các giới hạn này cần được xem xét khi chấm coherence và evidence.
+
+## Chạy benchmark và audit
+
+Từ thư mục `starter/`, chạy dev trước rồi mới chạy test:
+
+```powershell
+..\.venv\Scripts\python.exe -m src.evaluate --split dev
+..\.venv\Scripts\python.exe -m src.evaluate --split test
+..\.venv\Scripts\python.exe -m src.audit_draft
 ```
 
-Kỳ vọng: hiện tên database, phiên bản PostgreSQL và pgvector, sau đó `Setup OK`. Đây **chỉ là kiểm tra hạ tầng**, không phải kết quả benchmark. Docker dùng cổng `127.0.0.1:55433` và mật khẩu cố định **chỉ dùng local cho lab**; nếu cổng bận, sửa đồng thời port trong `docker-compose.yml` và `DATABASE_URL` trong `.env`. `init.sql` chỉ chạy khi volume mới được tạo; nếu database sẵn có chưa bật extension, xem log Docker và kiểm tra cấu hình thay vì xóa volume chứa dữ liệu.
+Kết quả nằm ở `../results/`: trace top-3, bảng số liệu dev/test, lựa chọn chiến lược theo dev, và bản nháp nhãn audit. Lần test yêu cầu đã có lựa chọn từ dev và sẽ từ chối chạy nếu benchmark hoặc tiêu chí lựa chọn bị thay đổi. Tiêu chí chọn đã ghi ở `../benchmark/selection_policy.json` trước khi chạy test. Điểm retrieval tự động yêu cầu toàn bộ đoạn gold nằm trong một chunk từ đúng trang; bằng chứng tương đương khác cần được xem và ghi nhãn thủ công. `audit_draft.json` là bản AI hỗ trợ, chưa phải nhãn thủ công được học viên xác nhận.
 
-Dừng container nhưng giữ dữ liệu:
-
-```bash
-docker compose -p day6_student_starter stop
-```
-
-## 2. Chọn embedding model
-
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
-
-## 3. Hoàn thiện pipeline
-
-1. Đặt corpus vào `data/` hoặc cung cấp manifest/hướng dẫn truy cập. Đọc [GUIDE.md](../GUIDE.md) về **30 trang nội dung**, quyền dữ liệu và metadata.
-2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
-3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
-4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
-
-Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.
+Để duyệt thủ công, xem `../results/audit_review_pack.md` (30 mục coherence và 15 mục grounding kèm chunk, gold và top-3) và `../benchmark/gold_review.md` (20 câu với quote và ngữ cảnh). Hai phiếu này để trống ô điểm/xác nhận có chủ ý; chạy `python -m src.build_audit_pack` hoặc `python -m src.build_gold_review` chỉ khi phiếu chưa tồn tại, vì script không ghi đè ghi chú của học viên.

@@ -1,0 +1,19 @@
+{
+  "probe": "isolated synthetic vectors; not the 67-page benchmark corpus",
+  "same_data_reingest": {
+    "before": 2,
+    "after": 2,
+    "ids_unchanged": true
+  },
+  "changed_data_reingest": {
+    "before": 2,
+    "after": 1,
+    "stale_chunk_removed": true,
+    "surviving_chunk_updated": true
+  },
+  "filter_check": {
+    "matching_hits": 1,
+    "excluded_hits": 0
+  },
+  "note": "The production pipeline re-embeds all chunks on each run; this probe verifies store semantics only."
+}
