@@ -1,6 +1,6 @@
 # Day 06 · Data Ingestion Engineering
 
-> Bài làm cá nhân của Trần Anh Tú (202603368, L3A): 67 trang báo cáo World Bank, FastEmbed + Qdrant local, ba cấu hình A/B/C, benchmark 20 câu và kết quả dev/test. Xem [hướng dẫn chạy](starter/README.md), [manifest](data/manifest.json), [benchmark](benchmark/README.md), [kết quả](results/README.md) và [báo cáo cá nhân](report/individual/202603368_TranAnhTu.md). Audit trong báo cáo là nhãn AI đề xuất, cần học viên xác nhận trước khi nộp.
+> Bài làm cá nhân của Trần Anh Tú (202603368, L3A): 67 trang báo cáo World Bank, FastEmbed + Qdrant local, ba cấu hình A/B/C, benchmark 20 câu và kết quả dev/test. Xem [hướng dẫn chạy](starter/README.md), [manifest](data/manifest.json), [benchmark](benchmark/README.md), [kết quả](results/README.md) và [báo cáo cá nhân](report/individual/202603368_TranAnhTu.md). Học viên đã xác nhận gold và nhãn audit sau khi đối chiếu PDF ngày 14/11/2026; bản nháp AI vẫn được giữ để truy vết.
 
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
@@ -29,7 +29,7 @@ cd starter
 
 Lần đầu tải model cần mạng. Chạy dev trước test để chốt chiến lược; test sẽ từ chối nếu benchmark hoặc quy tắc chọn thay đổi. PDF gốc và kho vector local được Git bỏ qua; người chấm có thể tải lại PDF từ nguồn trong manifest. Xem [hướng dẫn chi tiết](starter/README.md).
 
-Minh chứng nạp lặp corpus thật ở [results/full_reingest_check.json](results/full_reingest_check.json). Học viên duyệt đáp án/quote bằng [benchmark/gold_review.md](benchmark/gold_review.md) và nhãn audit bằng [results/audit_review_pack.md](results/audit_review_pack.md) trước khi nộp; các ô xác nhận hiện để trống.
+Minh chứng nạp lặp corpus thật ở [results/full_reingest_check.json](results/full_reingest_check.json). Phiếu duyệt đáp án/quote ở [benchmark/gold_review.md](benchmark/gold_review.md), phiếu audit ở [results/audit_review_pack.md](results/audit_review_pack.md) và bản ghi xác nhận ở [results/audit_confirmed.json](results/audit_confirmed.json).
 
 ## 1. Xây pipeline
 

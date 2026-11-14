@@ -1,8 +1,8 @@
 # Kiểm tra nhãn audit trước khi nộp
 
-Bản dưới là nhãn **AI đề xuất**. Học viên mở `test_traces.json` và PDF gốc, đối chiếu từng chunk/trang, rồi ghi ngày và tên người kiểm tra. Chỉ sau khi kiểm tra mới mô tả đây là audit thủ công trong báo cáo.
+Bản dưới là nhãn **AI đề xuất ban đầu**, được học viên Trần Anh Tú xác nhận sau khi đối chiếu PDF ngày 14/11/2026. Không có điểm nào thay đổi. `audit_confirmed.json` ghi người xác nhận, ngày và hash bản nháp; kiểm tra metadata 45/45 được thực hiện bằng chương trình.
 
-Phiếu chi tiết [audit_review_pack.md](audit_review_pack.md) hiển thị toàn văn 30 chunk coherence và top-3 của 15 lượt grounding, kèm ô để ghi điểm sau khi xem. Bảng dưới chỉ là bản tóm tắt.
+Phiếu chi tiết [audit_review_pack.md](audit_review_pack.md) hiển thị toàn văn 30 chunk coherence và top-3 của 15 lượt grounding, kèm điểm học viên xác nhận. Bảng dưới là bản tóm tắt.
 
 ## Grounding: 5 câu test × 3 cấu hình
 
@@ -33,8 +33,9 @@ Mẫu là ký tự 240 trên 10 trang nội dung đầu; C dùng lại chunk c�
 
 ## Metadata và xác nhận
 
-- [ ] Xem `audit_draft.json`: 45 dòng `metadata_checks`, xác nhận URL nguồn, trang vật lý, trang in và `section` theo `data/manifest.json`.
-- [ ] Xem lại 15 nhãn grounding và lý do ở trên trong `results/test_traces.json`; chỉnh nhãn nếu cần.
-- [ ] Xem lại 30 nhãn coherence và chunk tương ứng trong `results/audit_draft.json`; chỉnh nhãn nếu cần.
-- [ ] Ghi trong báo cáo ai đã kiểm tra nhãn, ngày kiểm tra và những chỉnh sửa.
-- [ ] Sau khi xác nhận, tạo commit/tag cuối và đẩy repo lên GitHub; nộp link theo kênh lớp.
+- [x] Chương trình kiểm tra 45 dòng `metadata_checks` với `data/manifest.json`: 45/45 khớp.
+- [x] Học viên xác nhận 15 nhãn grounding sau khi xem PDF; không đổi điểm.
+- [x] Học viên xác nhận 30 nhãn coherence sau khi xem PDF; không đổi điểm.
+- [x] Báo cáo ghi Trần Anh Tú xác nhận ngày 14/11/2026; giữ bản nháp AI để truy vết.
+- [x] Tạo commit/tag cuối và đẩy repo lên GitHub.
+- [ ] Học viên nộp link repo/tag theo kênh lớp.

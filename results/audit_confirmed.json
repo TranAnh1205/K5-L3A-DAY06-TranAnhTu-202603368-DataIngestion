@@ -1,0 +1,95 @@
+{
+  "status": "student-confirmed after PDF review",
+  "reviewer": "Trần Anh Tú",
+  "student_id": "202603368",
+  "review_date": "2026-11-14",
+  "confirmation_basis": "Student stated in the lab conversation that he checked the PDF and agreed with all 20 gold answers/quotes and all 45 proposed coherence/grounding scores.",
+  "gold_questions_reviewed": 20,
+  "coherence_labels_reviewed": 30,
+  "grounding_labels_reviewed": 15,
+  "scores_changed_from_ai_draft": 0,
+  "hash_method": "SHA-256 of UTF-8 text with LF line endings; normalize CRLF to LF when verifying on Windows",
+  "metadata_check": "Programmatic comparison with manifest: 45/45 test top-3 records correct; C filter compliant on 1/1 test filter question.",
+  "draft_sha256": "b02c66e82d4d720cdedebe1421162af5d351410de91e8b0f4096dbec7d9a011a",
+  "audit_review_pack_sha256": "3cd36118f1788468a4cebd05355dd921b9572bc09d42852a073e9e5daf6e468d",
+  "gold_review_sha256": "06d783c9c7943136f77e7c58fa2aa9753031c90983eab200daf8283192ac78de",
+  "benchmark_sha256": "460ce884258d7db54915c864000e7b0f2dd23a79c0d83ceb097313b7ab3e1182",
+  "summary": {
+    "A": {
+      "coherence": {
+        "n": 10,
+        "mean_out_of_2": 1.0,
+        "score_counts": {
+          "1": 10
+        }
+      },
+      "grounding": {
+        "n": 5,
+        "mean_out_of_2": 1.4,
+        "score_counts": {
+          "1": 3,
+          "2": 2
+        }
+      },
+      "metadata_correct": {
+        "n": 15,
+        "N": 15
+      },
+      "filter_compliance": "not_applied"
+    },
+    "B": {
+      "coherence": {
+        "n": 10,
+        "mean_out_of_2": 1.8,
+        "score_counts": {
+          "2": 8,
+          "1": 2
+        }
+      },
+      "grounding": {
+        "n": 5,
+        "mean_out_of_2": 1.4,
+        "score_counts": {
+          "0": 1,
+          "1": 1,
+          "2": 3
+        }
+      },
+      "metadata_correct": {
+        "n": 15,
+        "N": 15
+      },
+      "filter_compliance": "not_applied"
+    },
+    "C": {
+      "coherence": {
+        "n": 10,
+        "mean_out_of_2": 1.8,
+        "score_counts": {
+          "2": 8,
+          "1": 2
+        }
+      },
+      "grounding": {
+        "n": 5,
+        "mean_out_of_2": 1.6,
+        "score_counts": {
+          "0": 1,
+          "2": 4
+        }
+      },
+      "metadata_correct": {
+        "n": 15,
+        "N": 15
+      },
+      "filter_compliance": {
+        "n": 1,
+        "N": 1
+      }
+    }
+  },
+  "limitations": [
+    "One student reviewer; AI proposed initial labels.",
+    "Gold may have equivalent evidence on other pages not fully enumerated."
+  ]
+}

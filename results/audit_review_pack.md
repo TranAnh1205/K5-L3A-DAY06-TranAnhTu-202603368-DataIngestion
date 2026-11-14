@@ -2,11 +2,11 @@
 
 **Học viên:** Trần Anh Tú · **MSSV:** 202603368 · **Lớp:** L3A
 
-**Trạng thái:** chưa được học viên xác nhận. Các điểm bên dưới là nhãn AI đề xuất; ô `Điểm sau khi xem` để trống có chủ ý.
+**Trạng thái:** học viên Trần Anh Tú xác nhận ngày 14/11/2026 đã đối chiếu PDF và đồng ý với cả 45 điểm đề xuất. Điểm đề xuất ban đầu do AI hỗ trợ soạn; điểm sau khi xem là điểm học viên xác nhận.
 
-Đọc đoạn PDF ở trang vật lý ghi trong từng mục, so với chunk/trace và thang 0–2 trong GUIDE.md. Điền điểm cuối, lý do nếu sửa, họ tên và ngày. Cập nhật `results/audit_draft.json` và báo cáo nếu điểm thay đổi. Không gọi phiếu này là audit thủ công trước khi hoàn tất.
+Đối tượng kiểm tra: 30 chunk coherence theo 10 vị trí nguồn và 15 bộ top-3 grounding của 5 câu test; thang 0–2 trong `GUIDE.md`. Không có điểm nào thay đổi so với nhãn đề xuất. `results/audit_draft.json` được giữ nguyên để lưu bản nháp gốc; tổng hợp đã xác nhận nằm ở `results/audit_confirmed.json`.
 
-Người kiểm tra: ____________________   Ngày: __________   Đã đối chiếu PDF: [ ]
+Người kiểm tra: Trần Anh Tú   Ngày: 14/11/2026   Đã đối chiếu PDF: [x]
 
 ## A. Coherence — 10 vị trí × 3 cấu hình
 
@@ -22,8 +22,8 @@ Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty 
 
 Điểm đề xuất: **1/2** — Ends mid-sentence at 'easily'.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 11 · cấu hình B
 
@@ -37,8 +37,8 @@ Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty 
 
 Điểm đề xuất: **2/2** — The labor-shift idea ends at a sentence boundary.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 11 · cấu hình C
 
@@ -52,8 +52,8 @@ Towards more inclusive cities 1 Part 1. Poverty & Equity Update1 Recent poverty 
 
 Điểm đề xuất: **2/2** — The labor-shift idea ends at a sentence boundary.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 12 · cấu hình A
 
@@ -67,8 +67,8 @@ Vị trí nguồn: ký tự 240; anchor: `ouseholds spent less on eating`; chunk
 
 Điểm đề xuất: **1/2** — Ends mid-word at 'reduc'.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 12 · cấu hình B
 
@@ -82,8 +82,8 @@ Vị trí nguồn: ký tự 240; anchor: `ouseholds spent less on eating`; chunk
 
 Điểm đề xuất: **2/2** — The spending examples are complete sentences.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 12 · cấu hình C
 
@@ -97,8 +97,8 @@ Vị trí nguồn: ký tự 240; anchor: `ouseholds spent less on eating`; chunk
 
 Điểm đề xuất: **2/2** — The spending examples are complete sentences.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 13 · cấu hình A
 
@@ -112,8 +112,8 @@ Towards more inclusive cities 3 OVERVIEW As Viet Nam continues eliminating struc
 
 Điểm đề xuất: **1/2** — Ends before completing the sentence about job vulnerability.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 13 · cấu hình B
 
@@ -127,8 +127,8 @@ Towards more inclusive cities 3 OVERVIEW As Viet Nam continues eliminating struc
 
 Điểm đề xuất: **2/2** — The mobility and incomplete transformation statements are complete.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 13 · cấu hình C
 
@@ -142,8 +142,8 @@ Towards more inclusive cities 3 OVERVIEW As Viet Nam continues eliminating struc
 
 Điểm đề xuất: **2/2** — The mobility and incomplete transformation statements are complete.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 14 · cấu hình A
 
@@ -157,8 +157,8 @@ Vị trí nguồn: ký tự 240; anchor: `hallenges are more urgent in u`; chunk
 
 Điểm đề xuất: **1/2** — Ends mid-list at 'urban'.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 14 · cấu hình B
 
@@ -172,8 +172,8 @@ Vị trí nguồn: ký tự 240; anchor: `hallenges are more urgent in u`; chunk
 
 Điểm đề xuất: **1/2** — The page starts with a sentence fragment despite a clean ending.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 14 · cấu hình C
 
@@ -187,8 +187,8 @@ Vị trí nguồn: ký tự 240; anchor: `hallenges are more urgent in u`; chunk
 
 Điểm đề xuất: **1/2** — The page starts with a sentence fragment despite a clean ending.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 15 · cấu hình A
 
@@ -202,8 +202,8 @@ Towards more inclusive cities 5 OVERVIEW The rate of urbanization is an importan
 
 Điểm đề xuất: **1/2** — Ends mid-word at 'far'.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 15 · cấu hình B
 
@@ -217,8 +217,8 @@ Towards more inclusive cities 5 OVERVIEW The rate of urbanization is an importan
 
 Điểm đề xuất: **2/2** — Rural-development statements retain their context.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 15 · cấu hình C
 
@@ -232,8 +232,8 @@ Towards more inclusive cities 5 OVERVIEW The rate of urbanization is an importan
 
 Điểm đề xuất: **2/2** — Rural-development statements retain their context.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 16 · cấu hình A
 
@@ -247,8 +247,8 @@ Vị trí nguồn: ký tự 240; anchor: ` HCMC reside in its urban dist`; chunk
 
 Điểm đề xuất: **1/2** — Ends mid-phrase at 'In the case o'.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 16 · cấu hình B
 
@@ -262,8 +262,8 @@ Vị trí nguồn: ký tự 240; anchor: ` HCMC reside in its urban dist`; chunk
 
 Điểm đề xuất: **1/2** — The page starts with 'risk, among other trends', an inherited fragment.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 16 · cấu hình C
 
@@ -277,8 +277,8 @@ Vị trí nguồn: ký tự 240; anchor: ` HCMC reside in its urban dist`; chunk
 
 Điểm đề xuất: **1/2** — The page starts with 'risk, among other trends', an inherited fragment.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 18 · cấu hình A
 
@@ -292,8 +292,8 @@ Vị trí nguồn: ký tự 240; anchor: `g Sustainable Development Goal`; chunk
 
 Điểm đề xuất: **1/2** — Ends mid-word at 'non'.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 18 · cấu hình B
 
@@ -307,8 +307,8 @@ Vị trí nguồn: ký tự 240; anchor: `g Sustainable Development Goal`; chunk
 
 Điểm đề xuất: **2/2** — The poverty-measurement sentence is complete and traceable.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 18 · cấu hình C
 
@@ -322,8 +322,8 @@ Vị trí nguồn: ký tự 240; anchor: `g Sustainable Development Goal`; chunk
 
 Điểm đề xuất: **2/2** — The poverty-measurement sentence is complete and traceable.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 19 · cấu hình A
 
@@ -337,8 +337,8 @@ Towards more inclusive cities 9 Part 1 discusses recent short-term poverty and e
 
 Điểm đề xuất: **1/2** — Ends mid-word after introducing income sources.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 19 · cấu hình B
 
@@ -352,8 +352,8 @@ Towards more inclusive cities 9 Part 1 discusses recent short-term poverty and e
 
 Điểm đề xuất: **2/2** — The Part 1 introduction ends at a sentence boundary.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 19 · cấu hình C
 
@@ -367,8 +367,8 @@ Towards more inclusive cities 9 Part 1 discusses recent short-term poverty and e
 
 Điểm đề xuất: **2/2** — The Part 1 introduction ends at a sentence boundary.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 20 · cấu hình A
 
@@ -382,8 +382,8 @@ PART 1. POVERTY & EQUITY UPDATE 10 Viet Nam bi-annual poverty & equity update - 
 
 Điểm đề xuất: **1/2** — Ends mid-sentence at 'by'.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 20 · cấu hình B
 
@@ -397,8 +397,8 @@ PART 1. POVERTY & EQUITY UPDATE 10 Viet Nam bi-annual poverty & equity update - 
 
 Điểm đề xuất: **2/2** — The first paragraph is understandable despite a footnote marker.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 20 · cấu hình C
 
@@ -412,8 +412,8 @@ PART 1. POVERTY & EQUITY UPDATE 10 Viet Nam bi-annual poverty & equity update - 
 
 Điểm đề xuất: **2/2** — The first paragraph is understandable despite a footnote marker.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 21 · cấu hình A
 
@@ -427,8 +427,8 @@ Vị trí nguồn: ký tự 240; anchor: ` between inequality and econom`; chunk
 
 Điểm đề xuất: **1/2** — Ends mid-word at 'V'.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### Trang PDF 21 · cấu hình B
 
@@ -442,8 +442,8 @@ Vị trí nguồn: ký tự 240; anchor: ` between inequality and econom`; chunk
 
 Điểm đề xuất: **2/2** — The inequality comparison is expressed in complete sentences.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### Trang PDF 21 · cấu hình C
 
@@ -457,8 +457,8 @@ Vị trí nguồn: ký tự 240; anchor: ` between inequality and econom`; chunk
 
 Điểm đề xuất: **2/2** — The inequality comparison is expressed in complete sentences.
 
-- [ ] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đối chiếu trang PDF và ngữ cảnh trước/sau chunk.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ## B. Grounding — 5 câu test × 3 cấu hình
 
@@ -500,8 +500,8 @@ ged to turn to these for expanded recommendations. • The W orld Bank (2020b) r
 
 Điểm grounding đề xuất: **1/2** — The gold-page chunk stops during the three-group list; the full answer is missing.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### t01 · cấu hình B
 
@@ -541,8 +541,8 @@ T o foster a longer-term sustainable recovery, policy solutions must address pot
 
 Điểm grounding đề xuất: **0/2** — Top-3 discusses monitoring and recovery but does not identify the three groups.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 0  Lý do nếu sửa: N/A
 
 ### t01 · cấu hình C
 
@@ -582,8 +582,8 @@ T o foster a longer-term sustainable recovery, policy solutions must address pot
 
 Điểm grounding đề xuất: **0/2** — No filter was requested; top-3 does not name the three groups.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 0  Lý do nếu sửa: N/A
 
 ### t02 · cấu hình A
 
@@ -623,8 +623,8 @@ e of UMIC poor Share of total population 2010 2012 2014 2016 2018 2020 2022 0 20
 
 Điểm grounding đề xuất: **1/2** — Top-3 gives a DOU urban-cluster comparison, but not the requested DB town rate.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### t02 · cấu hình B
 
@@ -664,8 +664,8 @@ The share of UMIC poor from urban areas rose to 20 percent in 2022, compared to 
 
 Điểm grounding đề xuất: **1/2** — Top-3 gives a DOU comparison, not the requested DB town rate.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### t02 · cấu hình C
 
@@ -705,8 +705,8 @@ Gradient of poverty across urbanization categories Figure 56 Rural Urban 0 10 20
 
 Điểm grounding đề xuất: **2/2** — Filtered rank 2 contains the DB town and urban-core comparison.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### t03 · cấu hình A
 
@@ -746,8 +746,8 @@ er pockets of wealth or poverty is feasible with more granular data. The left pa
 
 Điểm grounding đề xuất: **2/2** — Rank 2 contains the flood-risk passage with its welfare mechanism and source.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### t03 · cấu hình B
 
@@ -787,8 +787,8 @@ Access to amenities and housing features impact the quality of daily life. Inves
 
 Điểm grounding đề xuất: **2/2** — Rank 3 contains the complete flood-risk passage.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### t03 · cấu hình C
 
@@ -828,8 +828,8 @@ Access to amenities and housing features impact the quality of daily life. Inves
 
 Điểm grounding đề xuất: **2/2** — Rank 3 contains the complete flood-risk passage.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### t04 · cấu hình A
 
@@ -869,8 +869,8 @@ ses in population from 2014- 19, which may relate to overcrowding and smaller av
 
 Điểm grounding đề xuất: **2/2** — Rank 1 contains both 2025 housing targets and their urban/rural conditions.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### t04 · cấu hình B
 
@@ -910,8 +910,8 @@ For the indicator on overcrowding, deprivations are based on National Housing De
 
 Điểm grounding đề xuất: **2/2** — Rank 2 contains both housing targets and the 2025 context.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### t04 · cấu hình C
 
@@ -951,8 +951,8 @@ For the indicator on overcrowding, deprivations are based on National Housing De
 
 Điểm grounding đề xuất: **2/2** — Rank 2 contains both housing targets and the 2025 context.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### t05 · cấu hình A
 
@@ -992,8 +992,8 @@ Share of population that are migrants (%) 2009 2014 2019 Core districts District
 
 Điểm grounding đề xuất: **1/2** — Rank 1 stops after the 19 percent migrant figure, before the non-migrant comparison.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 1  Lý do nếu sửa: N/A
 
 ### t05 · cấu hình B
 
@@ -1033,8 +1033,8 @@ Share of HCMC population that are migrants (%) Figure 76 Figure 77 0 100 200 300
 
 Điểm grounding đề xuất: **2/2** — Rank 1 contains both migrant and non-migrant rates.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ### t05 · cấu hình C
 
@@ -1074,18 +1074,18 @@ Share of HCMC population that are migrants (%) Figure 76 Figure 77 0 100 200 300
 
 Điểm grounding đề xuất: **2/2** — Rank 1 contains both migrant and non-migrant rates.
 
-- [ ] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
-- Điểm sau khi xem (0/1/2): ____  Lý do nếu sửa: ____________________
+- [x] Đã đọc cả top-3 và trang gold; xác nhận bằng chứng đủ/thiếu cho đáp án.
+- Điểm sau khi xem (0/1/2): 2  Lý do nếu sửa: N/A
 
 ## C. Metadata
 
-Chương trình đã so 45 hit test với manifest. Học viên kiểm tra URL nguồn, trang vật lý, trang in và section ở vài hit tiêu biểu, đặc biệt câu filter `t02`.
+Chương trình đã so cả 45 hit test với manifest: `document_id`, URL nguồn, trang vật lý, trang in và `section` đều khớp. Với câu filter test `t02`, cả ba hit của C nằm trong Part 2. Đây là kiểm tra tự động; xác nhận 45 điểm của học viên ở trên áp dụng cho coherence và grounding.
 
-- [ ] Đã xem `results/audit_draft.json` → `metadata_checks` và đối chiếu ít nhất các hit của `t02` với PDF/manifest.
-- Ghi phát hiện hoặc chỉnh sửa: ____________________
+- [x] Đã kiểm tra tự động 45/45 bản ghi metadata với manifest và 1/1 câu filter test của C.
+- Ghi phát hiện hoặc chỉnh sửa: Không có sai lệch trong phép kiểm tra tự động.
 
 ## Xác nhận
 
-- [ ] Hoàn tất cả 30 ô coherence và 15 ô grounding.
-- [ ] Sửa nhãn, bảng tổng hợp và báo cáo nếu khác điểm đề xuất.
-- Họ tên: ____________________   Ngày/giờ: ____________________
+- [x] Hoàn tất cả 30 ô coherence và 15 ô grounding.
+- [x] Không thay đổi điểm đề xuất; bảng tổng hợp và báo cáo giữ nguyên số liệu.
+- Họ tên: Trần Anh Tú   Ngày/giờ: 14/11/2026
